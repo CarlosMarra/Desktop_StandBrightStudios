@@ -36,14 +36,12 @@
     <!-- for IE -->
     <link rel="icon" type="image/x-icon" href="images/logo.ico" >
     <link rel="shortcut icon" type="image/x-icon" href="images/logo.ico"/>
-    
-    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="jcss/index2.js"></script><!--Personal Changes to css and jQuery go below-->
-    <link href="jcss/reasons2.css" rel="stylesheet"><!-- Add fancyBox main JS and CSS files -->
+    
+    <!-----><script src="jcssM/fullswing.min.js"></script>
+    <!-----><link href="jcssM/fullswing.min.css" rel="stylesheet">
 
     <script src="fancybox_source/jquery.fancybox.js?v=2.1.5" type="text/javascript"></script>
-    <script src="jquery.validate.js" type="text/javascript"></script>
     <link href="fancybox_source/jquery.fancybox.css?v=2.1.5" media="screen" rel="stylesheet" type=
     "text/css">
         

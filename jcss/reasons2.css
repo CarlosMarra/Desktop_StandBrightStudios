@@ -102,6 +102,10 @@ iframe {
     margin:0 auto
 }
 
+.space {
+    clear:both
+}
+
 .spacing {
     height:30px;
     clear:both
@@ -117,29 +121,310 @@ iframe {
     clear:both
 }
 
-.spacing_special{
+.spacing_special {
     height:15px;
     clear:both;
-    background-color: #528494;
+    background-color:#528494
 }
+
+/******************************************/
+/*************FancyBox Iframe**************/
+/******************************************/
+
+.fancybox-inner {
+    height:400px!important
+}
+
+.fancybox-skin {
+    border:solid 5px #405159!important;
+    padding:0!important
+}
+
+.peeps {
+    width:100%;
+    height:100%;
+    background-color:#fffd88;
+    border-radius:50%;
+    border:solid 10px #405159
+}
+
+.person {
+    height:auto;
+    float:left
+}
+
+.person h1 {
+    margin-left:25px
+}
+
+.person figcaption {
+    text-align:center;
+    font-size:15%
+}
+
+.person figure figcaption {
+    text-align:center;
+    font-size:150%;
+    font-weight:700
+}
+
+.personT {
+    margin-left:-46%;
+    width:44%;
+    height:auto
+}
+
+.personT img {
+    width:100%
+}
+
+.corps_1,.corps_2 {
+    background-color:#528494;
+    float:left
+}
+
+.corps_1 img,.corps_2 img {
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    float:left
+}
+
+.listed_table {
+    margin:0 auto;
+    width:100%;
+    margin-top:120px;
+    text-align:center
+}
+
+.grouping5 h1 {
+    font-weight:700;
+    text-align:center;
+    color:#cff0ff;
+    margin:0;
+    background-color:#528494
+}
+
+.dressup {
+    width:60%;
+    margin:0 auto
+}
+
+.grouping5 {
+    width:100%;
+    margin:0 auto;
+    background-color:#528494;
+    font-family:Verdana,Geneva,sans-serif
+}
+
+/******************************************/
+/******************Process*****************/
+/******************************************/
+.grouping2 {
+    width:100%;
+    margin:0 auto;
+    background-color:#405159
+}
+
+.grouping2 h1 {
+    font-weight:700;
+    text-align:center;
+    color:#CFF0FF
+}
+
+.layer_1,.layer_2 {
+    margin:0 auto
+}
+
+.plus {
+    font-size:340%;
+    color:#fffd88;
+    font-weight:700;
+    float:left;
+    text-align:center;
+    margin-top:5%
+}
+
+.steps_3 {
+    margin-right:auto;
+    margin:0 auto;
+    float:left
+}
+
+.steps_3 img {
+    width:100%;
+    margin:0 auto;
+    float:left
+}
+
+.steps_3 figcaption {
+    color:#fffd88;
+    font-size:200%;
+    text-align:center;
+    font-weight:700
+}
+
+/******************************************/
+/****************Contact Us****************/
+/******************************************/
+.categories {
+    background-color:#405159!important;
+    color:#fff;
+    font-weight:700;
+    padding:1%
+}
+
+.form_submitter {
+    width:30%;
+    float:left
+}
+
+.form_submitter input {
+    background-color:#fffd88;
+    padding:5px;
+    padding-left:20px;
+    border:solid 5px #CFF0FF;
+    color:#405159;
+    font-weight:700
+}
+
+.form_submitter {
+    width:100%;
+    float:left;
+    margin:0 auto
+}
+
+.form_sub {
+    border:solid 5px #405159;
+    background-color:#CFF0FF;
+    font-weight:700;
+    margin-left: 80%;
+}
+
+.emails_space {
+    width:10%;
+    float:left;
+    color:#405159
+}
+
+.real {
+    width:50%;
+    -webkit-box-shadow:0 1px 3px 0 #bbb;
+    box-shadow:0 1px 3px 0 #bbb;
+    background-color:#fffd88;
+    margin:0 auto
+}
+
+.real li {
+    list-style:none;
+    display:inline;
+    float:left;
+    padding:1%;
+    background-color:#fffd88;
+    font-weight:700
+}
+
+.real2 {
+    -webkit-box-shadow:0 1px 3px 0 #bbb;
+    box-shadow:0 1px 3px 0 #bbb;
+    background-color:#fffd88;
+    margin:0 auto
+}
+
+.real2 li {
+    list-style:none;
+    display:inline;
+    float:left;
+    text-align:left;
+    background-color:#fffd88;
+    font-weight:700
+}
+
+.real2 li input {
+    background-color:#CFF0FF;
+    padding:5px;
+    padding-left:20px
+}
+
+.textarea {
+    margin:0;
+    width:100%;
+    height:100px;
+    padding-left:20px;
+    padding-top:5px;
+    background-color:#cff0ff
+}
+
+/******************************************/
+/***************The Footer*****************/
+/******************************************/
+
+.contact_info_mini {
+    width:100%;
+    color:#405159;
+    font-weight:700;
+    font-size:150%;
+    text-align:center
+}
+
+.footer_drive {
+    width:100%;
+    background-color:#fffd88;
+    -webkit-box-shadow:0 1px 3px 0 #bbb;
+    box-shadow:0 1px 3px 0 #bbb
+}
+
+.footer_socials {
+    float:left;
+    width:20%
+}
+
+.footer_socials figure {
+    width:100%
+}
+
+.footer_socials figure img {
+    width:100%
+}
+
+.grouping4 {
+    width:67%;
+    margin:0 auto;
+    background-color:#fffd88
+}
+
+/******************************************/
+/*************Multiple Sections************/
+/******************************************/
+
+.grouping,.grouping3 {
+    width:100%;
+    margin:0 auto;
+    background-color:#b5eff7
+}
+
+.grouping h1,.grouping3 h1 {
+    font-weight:700;
+    font-size:400%;
+    text-align:center;
+    color:#405159
+}
+
+.text2 {
+    display:inline-block;
+    width:100%;
+    border:solid 2px #405159;
+    font-size:15px
+}
+
+
+
+
 
 
 /*********************************************************************/
 /*********************************************************************/
 @media only screen and (max-width: 409px) {/**************************/
-    
-    /******************************************/
-    /*************FancyBox Iframe**************/
-    /******************************************/
-    
-    .fancybox-inner {
-        height:400px!important
-    }
-    
-    .fancybox-skin {
-        border:solid 5px #405159!important;
-        padding:0!important
-    }
 
     /******************************************/
     /*************Parallax Section*************/
@@ -216,47 +501,13 @@ iframe {
     /******************************************/
     /*****************My Team******************/
     /******************************************/
-    .peeps {
-        width:100%;
-        height:100%;
-        background-color:#fffd88;
-        border-radius:50%;
-        border:solid 10px #405159
-    }
-    
+ 
     .person {
         width:44%;
-        height:auto;
-        float:left;
         margin-left:3%;
         margin-right:2%
     }
-    
-    .person h1 {
-        margin-left:25px
-    }
-    
-    .person figcaption {
-        text-align:center;
-        font-size:15%
-    }
-    
-    .person figure figcaption {
-        text-align:center;
-        font-size:150%;
-        font-weight:700
-    }
-    
-    .personT {
-        margin-left:-46%;
-        width:44%;
-        height:auto
-    }
-    
-    .personT img {
-        width:100%
-    }
-    
+  
     .school {
         margin:0 auto;
         width:90%
@@ -265,114 +516,33 @@ iframe {
     /******************************************/
     /****************What We Do****************/
     /******************************************/
+   
     .corps_1, .corps_2{
         width:100%;
-        float:left
     }
 
     .corps_1{
-        background-color: #528494;
         padding-bottom: 100px;
     }
     
-    .corps_2{
-        background-color: #528494;
-    }
-    
-    .corps_1 img, .corps_2 img {
-        width:80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        float:left;
-    }
-    
-    .listed_table {
-        margin:0 auto;
-        width:100%;
-        margin-top:120px;
-        text-align:center
-    }
-    
     .grouping5 h1 {
-        font-weight:700;
         font-size:300%;
-        text-align:center;
-        color:#cff0ff;
-        margin:0;
-        background-color: #528494;
-    }
-    
-    .dressup {
-        width:60%;
-        margin:0 auto
-    }
-    
-    .grouping5 {
-        width:100%;
-        margin:0 auto;
-        background-color:#528494;
-        font-family:Verdana,Geneva,sans-serif
-    }
-    
-    .grouping5 th {
-        background-color:#405159;
-        color:#CFF0FF;
-        padding:20px;
-        font-weight:700;
-        font-size:30px
-    }
-    
-    .grouping5 tr:nth-child(odd) {
-        color:#CFF0FF;
-        background-color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 tr:nth-child(even) {
-        background-color:#CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 td {
-        padding:10px;
-        width:50%
     }
 
     /******************************************/
     /******************Process*****************/
     /******************************************/
-    .grouping2 {
-        width:100%;
-        margin:0 auto;
-        background-color:#405159
-    }
-    
+ 
     .grouping2 h1 {
-        font-weight:700;
         font-size:400%;
-        text-align:center;
-        color:#CFF0FF
     }
     
-    .layer1 {
+    .layer1, .layer2{
         width:auto;
-        margin:0 auto
-    }
-    
-    .layer2 {
-        width:auto;
-        margin:0 auto
     }
     
     .plus {
-        font-size:340%;
-        color:#fffd88;
-        font-weight:700;
-        float:left;
         width:100%;
-        text-align:center;
-        margin-top:5%
     }
     
     .plus2 {
@@ -397,10 +567,7 @@ iframe {
     
     .steps_3 {
         margin-left:10%;
-        margin-right:auto;
         width:100%;
-        margin:0 auto;
-        float:left
     }
     
     .steps_3 figure {
@@ -410,70 +577,24 @@ iframe {
         float:left
     }
     
-    .steps_3 img {
-        width:100%;
-        margin:0 auto;
-        float:left
-    }
-    
-    .steps_3 figcaption {
-        color:#fffd88;
-        font-size:150%;
-        text-align:center;
-        font-weight:700
-    }
-    
     /******************************************/
     /****************Contact Us****************/
     /******************************************/
     .categories {
         width:100%;
-        background-color:#405159!important;
-        color:#fff;
         font-size:100%!important;
-        font-weight:700;
-        padding:1%
     }
-    
-    .form_submitter {
-        width:30%;
-        float:left
-    }
-    
-    .form_submitter input {
-        background-color:#fffd88;
-        padding:5px;
-        padding-left:20px;
-        border:solid 5px #CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .form_submitter {
-        width:100%;
-        float:left;
-        margin:0 auto
-    }
-    
+
     .form_sub {
         width:40%;
         height:130px;
-        border:solid 5px #405159;
-        background-color:#CFF0FF;
         color:#405159;
         margin:10%;
         margin-left:30%;
         margin-right:30%;
         font-size:170%;
-        font-weight:700
     }
-    
-    .emails_space {
-        width:10%;
-        float:left;
-        color:#405159
-    }
-    
+
     .info_split {
         width:100%;
         float:left
@@ -485,65 +606,29 @@ iframe {
     }
     
     .real {
-        width:100%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
         height:55px;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real li {
-        list-style:none;
-        display:inline;
-        float:left;
-        padding:1%;
-        background-color:#fffd88;
-        font-weight:700;
         font-size:100%;
         width:100%;
-        text-align:center
     }
     
     .real2 {
         width:100%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real2 li {
-        list-style:none;
-        display:inline;
-        float:left;
-        text-align:left;
-        background-color:#fffd88;
         padding:2%;
         padding-left:5%;
         padding-right:5%;
-        font-weight:700;
         font-size:120%
     }
-    
-    .real2 li input {
-        background-color:#CFF0FF;
-        padding:5px;
-        padding-left:20px
-    }
-    
+     
     .li_textarea{
         width: 96%
     }
     
-    .textarea{
-        margin: 0px;
-        width: 100%;
-        height: 100px;
-        padding-left:20px;
-        padding-top: 5px;
-        background-color: #cff0ff;
-    }
     /******************************************/
     /***************Email Monkey***************/
     /******************************************/
@@ -603,66 +688,10 @@ iframe {
     /******************************************/
     /****************The Footer****************/
     /******************************************/
-    .contact_info_mini {
-        width:100%;
-        color:#405159;
-        font-weight:700;
-        font-size:100%;
-        text-align:center
-    }
-    
-    .footer_drive {
-        width:100%;
-        background-color:#fffd88;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb
-    }
-    
-    .footer_socials {
-        float:left;
-        width:20%
-    }
-    
-    .footer_socials figure {
-        width:100%
-    }
-    
-    .footer_socials figure img {
-        width:100%
-    }
-    
-    .grouping4 {
-        width:67%;
-        margin:0 auto;
-        background-color:#fffd88
-    }
     
     .social_space {
         width:100%;
         margin:0 auto
-    }
-    
-    /******************************************/
-    /*************Multiple Sections************/
-    /******************************************/
-    .grouping,.grouping3 {
-        width:100%;
-        margin:0 auto;
-        background-color:#b5eff7
-    }
-    
-    .grouping h1,.grouping3 h1 {
-        font-weight:700;
-        font-size:400%;
-        text-align:center;
-        color:#405159
-    }
-    
-    .text2 {
-        display:inline-block;
-        width:100%;
-        border:solid 2px #405159;
-        font-size:15px
     }
 }
 
@@ -670,19 +699,6 @@ iframe {
 /********************************************************************/
 /********************************************************************/
 @media only screen and (min-width: 410px) and (max-width: 533px){/****/
-   
-    /******************************************/
-    /*************FancyBox Iframe**************/
-    /******************************************/
-    
-    .fancybox-inner {
-        height:400px!important
-    }
-    
-    .fancybox-skin {
-        border:solid 5px #405159!important;
-        padding:0!important
-    }
 
     /******************************************/
     /*************Parallax Section*************/
@@ -759,45 +775,11 @@ iframe {
     /******************************************/
     /******************My Team*****************/
     /******************************************/
-    .peeps {
-        width:100%;
-        height:100%;
-        background-color:#fffd88;
-        border-radius:50%;
-        border:solid 10px #405159
-    }
-    
+
     .person {
         width:44%;
-        height:auto;
-        float:left;
         margin-left:3%;
         margin-right:2%
-    }
-    
-    .person h1 {
-        margin-left:25px
-    }
-    
-    .person figcaption {
-        text-align:center;
-        font-size:15%
-    }
-    
-    .person figure figcaption {
-        text-align:center;
-        font-size:150%;
-        font-weight:700
-    }
-    
-    .personT {
-        margin-left:-46%;
-        width:44%;
-        height:auto
-    }
-    
-    .personT img {
-        width:100%
     }
     
     .school {
@@ -808,114 +790,38 @@ iframe {
     /******************************************/
     /****************What We Do****************/
     /******************************************/
+   
     .corps_1, .corps_2{
         width:100%;
-        float:left
     }
 
     .corps_1{
-        background-color: #528494;
         padding-bottom: 50px;
     }
-    
-    .corps_2{
-        background-color: #528494;
-    }
-    
-    .corps_1 img, .corps_2 img {
-        width:80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        float:left;
-    }
-    
-    .listed_table {
-        margin:0 auto;
-        width:100%;
-        margin-top:120px;
-        text-align:center
-    }
-    
+
     .grouping5 h1 {
-        font-weight:700;
         font-size:300%;
-        text-align:center;
-        color:#cff0ff;
-        margin:0;
-        background-color: #528494;
     }
     
     .dressup {
         width:60%;
         margin:0 auto
     }
-    
-    .grouping5 {
-        width:100%;
-        margin:0 auto;
-        background-color:#528494;
-        font-family:Verdana,Geneva,sans-serif
-    }
-    
-    .grouping5 th {
-        background-color:#405159;
-        color:#CFF0FF;
-        padding:20px;
-        font-weight:700;
-        font-size:30px
-    }
-    
-    .grouping5 tr:nth-child(odd) {
-        color:#CFF0FF;
-        background-color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 tr:nth-child(even) {
-        background-color:#CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 td {
-        padding:10px;
-        width:50%
-    }
 
     /******************************************/
     /*****************Process******************/
     /******************************************/
-    .grouping2 {
-        width:100%;
-        margin:0 auto;
-        background-color:#405159
-    }
-    
+
     .grouping2 h1 {
-        font-weight:700;
         font-size:400%;
-        text-align:center;
-        color:#CFF0FF
     }
     
-    .layer1 {
+    .layer1, .layer2 {
         width:auto;
-        margin:0 auto
-    }
-    
-    .layer2 {
-        width:auto;
-        margin:0 auto
     }
     
     .plus {
-        font-size:340%;
-        color:#fffd88;
-        font-weight:700;
-        float:left;
         width:100%;
-        text-align:center;
-        margin-top:5%
     }
     
     .plus2 {
@@ -940,10 +846,7 @@ iframe {
     
     .steps_3 {
         margin-left:10%;
-        margin-right:auto;
         width:100%;
-        margin:0 auto;
-        float:left
     }
     
     .steps_3 figure {
@@ -953,69 +856,24 @@ iframe {
         float:left
     }
     
-    .steps_3 img {
-        width:100%;
-        margin:0 auto;
-        float:left
-    }
-    
-    .steps_3 figcaption {
-        color:#fffd88;
-        font-size:150%;
-        text-align:center;
-        font-weight:700
-    }
-    
     /******************************************/
     /****************Contact Us****************/
     /******************************************/
+    
     .categories {
         width:100%;
-        background-color:#405159!important;
-        color:#fff;
         font-size:100%!important;
-        font-weight:700;
-        padding:1%
     }
-    
-    .form_submitter {
-        width:30%;
-        float:left
-    }
-    
-    .form_submitter input {
-        background-color:#fffd88;
-        padding:5px;
-        padding-left:20px;
-        border:solid 5px #CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .form_submitter {
-        width: 35%;
-        float:left;
-        margin:0 auto
-    }
-    
+
     .form_sub {
         width: 80%;
         height: 100px;
-        border:solid 5px #405159;
-        background-color:#CFF0FF;
         color:#405159;
         margin:10%;
         margin-left: 10%;
         margin-right: 10%;
         font-size:170%;
-        font-weight:700;
         margin-top: 80%;
-    }
-    
-    .emails_space {
-        width:10%;
-        float:left;
-        color:#405159
     }
     
     .info_split {
@@ -1031,68 +889,33 @@ iframe {
     }
     
     .real {
-        width:100%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
         height:55px;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real li {
-        list-style:none;
-        display:inline;
-        float:left;
         padding:1%;
-        background-color:#fffd88;
-        font-weight:700;
-        font-size:100%;
         width:100%;
-        text-align:center
     }
     
     .real2 {
         width:100%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real2 li {
-        list-style:none;
-        display:inline;
-        float:left;
-        text-align:left;
-        background-color:#fffd88;
         padding:2%;
         padding-left:5%;
         padding-right:5%;
-        font-weight:700;
         font-size:120%
     }
-    
-    .real2 li input {
-        background-color:#CFF0FF;
-        padding:5px;
-        padding-left:20px
-    }
-    
+
     .li_textarea{
         width: 96%
     }
-    
-    .textarea{
-        margin: 0px;
-        width: 100%;
-        height: 100px;
-        padding-left:20px;
-        padding-top: 5px;
-        background-color: #cff0ff;
-    }
+
     /******************************************/
     /***************Email Monkey***************/
     /******************************************/
+    
     .emails {
         width:100%;
         float:left
@@ -1149,66 +972,10 @@ iframe {
     /******************************************/
     /***************The Footer*****************/
     /******************************************/
-    .contact_info_mini {
-        width:100%;
-        color:#405159;
-        font-weight:700;
-        font-size:100%;
-        text-align:center
-    }
-    
-    .footer_drive {
-        width:100%;
-        background-color:#fffd88;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb
-    }
-    
-    .footer_socials {
-        float:left;
-        width:20%
-    }
-    
-    .footer_socials figure {
-        width:100%
-    }
-    
-    .footer_socials figure img {
-        width:100%
-    }
-    
-    .grouping4 {
-        width:67%;
-        margin:0 auto;
-        background-color:#fffd88
-    }
-    
+
     .social_space {
         width:100%;
         margin:0 auto
-    }
-    
-    /******************************************/
-    /*************Multiple Section*************/
-    /******************************************/
-    .grouping,.grouping3 {
-        width:100%;
-        margin:0 auto;
-        background-color:#b5eff7
-    }
-    
-    .grouping h1,.grouping3 h1 {
-        font-weight:700;
-        font-size:400%;
-        text-align:center;
-        color:#405159
-    }
-    
-    .text2 {
-        display:inline-block;
-        width:100%;
-        border:solid 2px #405159;
-        font-size:15px
     }
 }
 
@@ -1216,19 +983,6 @@ iframe {
 /**********************************************************************/
 @media only screen and (min-width: 534px) and (max-width: 799px){/*****/
    
-    /******************************************/
-    /*************FancyBox Iframe**************/
-    /******************************************/
-    
-    .fancybox-inner {
-        height:400px!important
-    }
-    
-    .fancybox-skin {
-        border:solid 5px #405159!important;
-        padding:0!important
-    }
-
     /******************************************/
     /*************Parallax Section*************/
     /******************************************/
@@ -1302,47 +1056,13 @@ iframe {
     }
 
     /******************************************/
-    /******************My Team****************/
+    /******************My Team*****************/
     /******************************************/
-    .peeps {
-        width:100%;
-        height:100%;
-        background-color:#fffd88;
-        border-radius:50%;
-        border:solid 10px #405159
-    }
     
     .person {
         width:34%;
-        height:auto;
-        float:left;
         margin-left:10%;
         margin-right:2%
-    }
-    
-    .person h1 {
-        margin-left:25px
-    }
-    
-    .person figcaption {
-        text-align:center;
-        font-size:15%
-    }
-    
-    .person figure figcaption {
-        text-align:center;
-        font-size:150%;
-        font-weight:700
-    }
-    
-    .personT {
-        margin-left:-36%;
-        width:34%;
-        height:auto
-    }
-    
-    .personT img {
-        width:100%
     }
     
     .school {
@@ -1355,112 +1075,30 @@ iframe {
     /******************************************/
     .corps_1, .corps_2{
         width:100%;
-        float:left
     }
 
     .corps_1{
-        background-color: #528494;
         padding-bottom: 100px;
     }
-    
-    .corps_2{
-        background-color: #528494;
-    }
-    
-    .corps_1 img, .corps_2 img {
-        width:80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        float:left;
-    }
-    
-    .listed_table {
-        margin:0 auto;
-        width:100%;
-        margin-top:120px;
-        text-align:center
-    }
-    
+
     .grouping5 h1 {
-        font-weight:700;
         font-size:300%;
-        text-align:center;
-        color:#cff0ff;
-        margin:0;
-        background-color: #528494;
-    }
-    
-    .dressup {
-        width:60%;
-        margin:0 auto
-    }
-    
-    .grouping5 {
-        width:100%;
-        margin:0 auto;
-        background-color:#528494;
-        font-family:Verdana,Geneva,sans-serif
-    }
-    
-    .grouping5 th {
-        background-color:#405159;
-        color:#CFF0FF;
-        padding:20px;
-        font-weight:700;
-        font-size:30px
-    }
-    
-    .grouping5 tr:nth-child(odd) {
-        color:#CFF0FF;
-        background-color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 tr:nth-child(even) {
-        background-color:#CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 td {
-        padding:10px;
-        width:50%
     }
 
     /******************************************/
     /*****************Process******************/
     /******************************************/
-    .grouping2 {
-        width:100%;
-        margin:0 auto;
-        background-color:#405159
-    }
-    
+
     .grouping2 h1 {
-        font-weight:700;
         font-size:400%;
-        text-align:center;
-        color:#CFF0FF
     }
     
-    .layer1 {
+    .layer1, .layer2 {
         width:auto;
-        margin:0 auto
-    }
-    
-    .layer2 {
-        width:auto;
-        margin:0 auto
     }
     
     .plus {
-        font-size:340%;
-        color:#fffd88;
-        font-weight:700;
-        float:left;
         width:100%;
-        text-align:center;
-        margin-top:5%
     }
     
     .plus2 {
@@ -1485,10 +1123,7 @@ iframe {
     
     .steps_3 {
         margin-left:10%;
-        margin-right:auto;
         width:100%;
-        margin:0 auto;
-        float:left
     }
     
     .steps_3 figure {
@@ -1498,43 +1133,12 @@ iframe {
         float:left
     }
     
-    .steps_3 img {
-        width:100%;
-        margin:0 auto;
-        float:left
-    }
-    
-    .steps_3 figcaption {
-        color:#fffd88;
-        font-size:150%;
-        text-align:center;
-        font-weight:700
-    }
-
     /******************************************/
     /****************Contact Us****************/
     /******************************************/
     .categories {
         width:100%;
-        background-color:#405159!important;
-        color:#fff;
         font-size:100%!important;
-        font-weight:700;
-        padding:1%
-    }
-    
-    .form_submitter {
-        width:30%;
-        float:left
-    }
-    
-    .form_submitter input {
-        background-color:#fffd88;
-        padding:5px;
-        padding-left:20px;
-        border:solid 5px #CFF0FF;
-        color:#405159;
-        font-weight:700
     }
     
     .form_submitter {
@@ -1547,20 +1151,11 @@ iframe {
     .form_sub {
         width: 50%;
         height:110px;
-        border:solid 5px #405159;
-        background-color:#CFF0FF;
         color:#405159;
         margin:10%;
         margin-left: 25%;
         margin-right: 25%;
         font-size:170%;
-        font-weight:700
-    }
-    
-    .emails_space {
-        width:10%;
-        float:left;
-        color:#405159
     }
     
     .info_split {
@@ -1576,21 +1171,10 @@ iframe {
     }
     
     .real {
-        width:100%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
         height:55px;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real li {
-        list-style:none;
-        display:inline;
-        float:left;
-        padding:1%;
-        background-color:#fffd88;
-        font-weight:700;
         font-size:100%;
         width:100%;
         text-align:center
@@ -1598,43 +1182,19 @@ iframe {
     
     .real2 {
         width:100%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real2 li {
-        list-style:none;
-        display:inline;
-        float:left;
-        text-align:left;
-        background-color:#fffd88;
         padding:2%;
         padding-left:5%;
         padding-right:5%;
-        font-weight:700;
         font-size:120%
-    }
-    
-    .real2 li input {
-        background-color:#CFF0FF;
-        padding:5px;
-        padding-left:20px
     }
 
     .li_textarea{
         width: 96%
     }
-    
-    .textarea{
-        margin: 0px;
-        width: 100%;
-        height: 100px;
-        padding-left:20px;
-        padding-top: 5px;
-        background-color: #cff0ff;
-    }
+
     /******************************************/
     /***************Email Monkey***************/
     /******************************************/
@@ -1694,66 +1254,10 @@ iframe {
     /******************************************/
     /****************The Footer****************/
     /******************************************/
-    .contact_info_mini {
-        width:100%;
-        color:#405159;
-        font-weight:700;
-        font-size:100%;
-        text-align:center
-    }
-    
-    .footer_drive {
-        width:100%;
-        background-color:#fffd88;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb
-    }
-    
-    .footer_socials {
-        float:left;
-        width:20%
-    }
-    
-    .footer_socials figure {
-        width:100%
-    }
-    
-    .footer_socials figure img {
-        width:100%
-    }
-    
-    .grouping4 {
-        width:67%;
-        margin:0 auto;
-        background-color:#fffd88
-    }
-    
+
     .social_space {
         width:100%;
         margin:0 auto
-    }
-
-    /******************************************/
-    /*************Muliple Section**************/
-    /******************************************/
-    .grouping,.grouping3 {
-        width:100%;
-        margin:0 auto;
-        background-color:#b5eff7
-    }
-    
-    .grouping h1,.grouping3 h1 {
-        font-weight:700;
-        font-size:400%;
-        text-align:center;
-        color:#405159
-    }
-    
-    .text2 {
-        display:inline-block;
-        width:100%;
-        border:solid 2px #405159;
-        font-size:15px
     }
 }
 
@@ -1765,30 +1269,19 @@ iframe {
         min-width: 800px;
         max-width: 800px;
     }
-   
-    /******************************************/
-    /*************FancyBox Iframe**************/
-    /******************************************/
-    .fancybox-inner {
-        height:400px!important
-    }
-    
-    .fancybox-skin {
-        border:solid 5px #405159!important;
-        padding:0!important
-    }
 
     /******************************************/
     /*************Parallax Section*************/
     /******************************************/
+    
     article figure {
         display:block;
         margin:0 auto;
-            background-color: #8ce7ef;
-            width: 400px;
-            float: left;
-            height: 512px;
-            padding-top:160px;
+        background-color: #8ce7ef;
+        width: 400px;
+        float: left;
+        height: 512px;
+        padding-top:160px;
     }
     
     article figcaption {
@@ -1804,7 +1297,6 @@ iframe {
     
     article img {
         width:80%
-        
     }
 
     article iframe {
@@ -1854,47 +1346,13 @@ iframe {
     /******************************************/
     /******************My Team*****************/
     /******************************************/
-    .peeps {
-        width:100%;
-        height:100%;
-        background-color:#fffd88;
-        border-radius:50%;
-        border:solid 10px #405159
-    }
     
     .person {
         width:23%;
-        height:auto;
-        float:left;
         margin-left:7%;
         margin-right:2%
     }
-    
-    .person h1 {
-        margin-left:25px
-    }
-    
-    .person figcaption {
-        text-align:center;
-        font-size:15%
-    }
-    
-    .person figure figcaption {
-        text-align:center;
-        font-size:150%;
-        font-weight:700
-    }
-    
-    .personT {
-        margin-left:-25%;
-        width:23%;
-        height:auto
-    }
-    
-    .personT img {
-        width:100%
-    }
-    
+
     .school {
         margin:0 auto;
         width:90%
@@ -1905,111 +1363,29 @@ iframe {
     /******************************************/
     .corps_1, .corps_2{
         width:100%;
-        float:left
     }
 
     .corps_1{
-        background-color: #528494;
         padding-bottom: 100px;
     }
     
-    .corps_2{
-        background-color: #528494;
-    }
-    
-    .corps_1 img, .corps_2 img {
-        width:80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        float:left;
-    }
-    
-    .listed_table {
-        margin:0 auto;
-        width:100%;
-        margin-top:120px;
-        text-align:center
-    }
-    
     .grouping5 h1 {
-        font-weight:700;
         font-size:400%;
-        text-align:center;
-        color:#cff0ff;
-        margin:0;
-        background-color: #528494;
     }
-    
-    .dressup {
-        width:60%;
-        margin:0 auto
-    }
-    
-    .grouping5 {
-        width:100%;
-        margin:0 auto;
-        background-color:#528494;
-        font-family:Verdana,Geneva,sans-serif
-    }
-    
-    .grouping5 th {
-        background-color:#405159;
-        color:#CFF0FF;
-        padding:20px;
-        font-weight:700;
-        font-size:30px
-    }
-    
-    .grouping5 tr:nth-child(odd) {
-        color:#CFF0FF;
-        background-color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 tr:nth-child(even) {
-        background-color:#CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 td {
-        padding:10px;
-        width:50%
-    }
-
+   
     /******************************************/
     /******************Process*****************/
     /******************************************/
-    .grouping2 {
-        width:100%;
-        margin:0 auto;
-        background-color:#405159
-    }
     
     .grouping2 h1 {
-        font-weight:700;
         font-size:400%;
-        text-align:center;
-        color:#CFF0FF
     }
     
-    .layer1 {
-        width:auto;
-        margin:0 auto
-    }
-    
-    .layer2 {
-        width:auto;
+    .layer1, .layer2 {
         margin:0 auto
     }
     
     .plus {
-        font-size:340%;
-        color:#fffd88;
-        font-weight:700;
-        float:left;
-        width:100%;
-        text-align:center;
         margin-top:5%
     }
     
@@ -2035,10 +1411,7 @@ iframe {
     
     .steps_3 {
         margin-left:10%;
-        margin-right:auto;
         width:100%;
-        margin:0 auto;
-        float:left
     }
     
     .steps_3 figure {
@@ -2047,46 +1420,15 @@ iframe {
         margin-right:38%;
         float:left
     }
-    
-    .steps_3 img {
-        width:100%;
-        margin:0 auto;
-        float:left
-    }
-    
-    .steps_3 figcaption {
-        color:#fffd88;
-        font-size:150%;
-        text-align:center;
-        font-weight:700
-    }
 
     /******************************************/
     /***************Contact Us*****************/
     /******************************************/
     .categories {
         width:100%;
-        background-color:#405159!important;
-        color:#fff;
         font-size:100%!important;
-        font-weight:700;
-        padding:1%
     }
-    
-    .form_submitter {
-        width:30%;
-        float:left
-    }
-    
-    .form_submitter input {
-        background-color:#fffd88;
-        padding:5px;
-        padding-left:20px;
-        border:solid 5px #CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
+
     .form_submitter {
         width:20%;
         float:left;
@@ -2096,20 +1438,11 @@ iframe {
     .form_sub {
         width:100%;
         height: 110px; 
-        border:solid 5px #405159;
-        background-color:#CFF0FF;
         color:#405159;
         margin-top:26%;
         margin-left:auto;
         margin-right:auto;
         font-size:170%;
-        font-weight:700
-    }
-    
-    .emails_space {
-        width:10%;
-        float:left;
-        color:#405159
     }
     
     .info_split {
@@ -2123,21 +1456,10 @@ iframe {
     }
     
     .real {
-        width:100%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
         height:55px;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real li {
-        list-style:none;
-        display:inline;
-        float:left;
-        padding:1%;
-        background-color:#fffd88;
-        font-weight:700;
         font-size:100%;
         width:100%;
         text-align:center
@@ -2145,44 +1467,19 @@ iframe {
     
     .real2 {
         width:100%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real2 li {
-        list-style:none;
-        display:inline;
-        float:left;
-        text-align:left;
-        background-color:#fffd88;
         padding:2%;
         padding-left:5%;
         padding-right:5%;
-        font-weight:700;
         font-size:120%
-    }
-    
-    .real2 li input {
-        background-color:#CFF0FF;
-        padding:5px;
-        padding-left:20px
     }
 
     .li_textarea{
         width: 96%
     }
     
-    .textarea{
-        margin: 0px;
-        width: 100%;
-        height: 100px;
-        padding-left:20px;
-        padding-top: 5px;
-        background-color: #cff0ff;
-    }
-
     /******************************************/
     /***************Email Monkey***************/
     /******************************************/
@@ -2242,66 +1539,10 @@ iframe {
     /******************************************/
     /****************The Footer****************/
     /******************************************/
-    .contact_info_mini {
-        width:100%;
-        color:#405159;
-        font-weight:700;
-        font-size:100%;
-        text-align:center
-    }
-    
-    .footer_drive {
-        width:100%;
-        background-color:#fffd88;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb
-    }
-    
-    .footer_socials {
-        float:left;
-        width:20%
-    }
-    
-    .footer_socials figure {
-        width:100%
-    }
-    
-    .footer_socials figure img {
-        width:100%
-    }
-    
-    .grouping4 {
-        width:67%;
-        margin:0 auto;
-        background-color:#fffd88
-    }
-    
+
     .social_space {
         width:100%;
         margin:0 auto
-    }
-
-    /******************************************/
-    /*************Multiple Sections************/
-    /******************************************/
-    .grouping,.grouping3 {
-        width:100%;
-        margin:0 auto;
-        background-color:#b5eff7
-    }
-    
-    .grouping h1,.grouping3 h1 {
-        font-weight:700;
-        font-size:400%;
-        text-align:center;
-        color:#405159
-    }
-    
-    .text2 {
-        display:inline-block;
-        width:100%;
-        border:solid 2px #405159;
-        font-size:15px
     }
 }
 
@@ -2312,18 +1553,6 @@ iframe {
     html {
         min-width:1024px;
         max-width:1024px
-    }
-    
-    /******************************************/
-    /*************FancyBox Iframe**************/
-    /******************************************/
-    .fancybox-inner {
-        height:400px!important
-    }
-    
-    .fancybox-skin {
-        border:solid 5px #405159!important;
-        padding:0!important
     }
     
     /******************************************/
@@ -2365,7 +1594,6 @@ iframe {
     }
 
     #home {
-        background:url(images/splash_art.png) 50% 0 no-repeat fixed;
         min-height:768px;
         height:768px;
         margin:0 auto;
@@ -2388,45 +1616,11 @@ iframe {
     /******************************************/
     /******************My Team*****************/
     /******************************************/
-    .peeps {
-        width:100%;
-        height:100%;
-        background-color:#fffd88;
-        border-radius:50%;
-        border:solid 10px #405159
-    }
     
     .person {
         width:20%;
-        height:auto;
-        float:left;
         margin-left:3%;
         margin-right:2%
-    }
-    
-    .person h1 {
-        margin-left:25px
-    }
-    
-    .person figcaption {
-        text-align:center;
-        font-size:15%
-    }
-    
-    .person figure figcaption {
-        text-align:center;
-        font-size:150%;
-        font-weight:700
-    }
-    
-    .personT {
-        margin-left:-22.3%;
-        width:20.1%;
-        height:auto
-    }
-    
-    .personT img {
-        width:100%
     }
     
     .school {
@@ -2437,113 +1631,35 @@ iframe {
     /******************************************/
     /****************What We Do****************/
     /******************************************/
+    
     .corps_1, .corps_2{
         width:50%;
         float:left
     }
-
-    .corps_1{
-        background-color: #528494
-    }
-    
-    .corps_2{
-        background-color: #528494;
-    }
-    
-    .corps_1 img, .corps_2 img {
-        width:80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        float:left;
-    }
-    
-    .listed_table {
-        margin:0 auto;
-        width:100%;
-        margin-top:120px;
-        text-align:center
-    }
     
     .grouping5 h1 {
-        font-weight:700;
         font-size:400%;
-        text-align:center;
-        color:#cff0ff;
-        margin:0;
-        background-color: #528494;
-    }
-    
-    .dressup {
-        width:60%;
-        margin:0 auto
-    }
-    
-    .grouping5 {
-        width:100%;
-        margin:0 auto;
-        background-color:#528494;
-        font-family:Verdana,Geneva,sans-serif
-    }
-    
-    .grouping5 th {
-        background-color:#405159;
-        color:#CFF0FF;
-        padding:20px;
-        font-weight:700;
-        font-size:30px
-    }
-    
-    .grouping5 tr:nth-child(odd) {
-        color:#CFF0FF;
-        background-color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 tr:nth-child(even) {
-        background-color:#CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 td {
-        padding:10px;
-        width:50%
     }
     
     /******************************************/
     /*****************Process******************/
     /******************************************/
-    .grouping2 {
-        width:100%;
-        margin:0 auto;
-        background-color:#405159
-    }
     
     .grouping2 h1 {
-        font-weight:700;
         font-size:500%;
-        text-align:center;
-        color:#CFF0FF
     }
     
     .layer1 {
         width: 75%;
-        margin:0 auto
     }
     
     .layer2 {
         width:31%;
-        margin:0 auto
     }
     
     .plus {
-        font-size:340%;
-        color:#fffd88;
-        font-weight:700;
-        float:left;
         width: 5%;
-        text-align:center;
-        margin-top: 5%;}
+    }
     
     .plusle {
         width:18%!important;
@@ -2556,10 +1672,7 @@ iframe {
     
     .steps_3 {
         margin-left:auto;
-        margin-right:auto;
         width: 16%;
-        margin:0 auto;
-        float:left
     }
     
     .steps_3 figure {
@@ -2568,60 +1681,22 @@ iframe {
         margin-right:2%;
         float:left
     }
-    
-    .steps_3 img {
-        width:100%;
-        margin:0 auto;
-        float:left
-    }
-    
-    .steps_3 figcaption {
-        color:#fffd88;
-        font-size: 150%;
-        text-align:center;
-        font-weight:700
-    }
         
     /******************************************/
     /****************Contact Us****************/
     /******************************************/
+    
     .categories {
         width:27%;
-        background-color:#405159!important;
-        color:#fff;
         font-size:100%!important;
-        font-weight:700;
-        padding:1%
     }
-    
-    .form_submitter {
-        width:30%;
-        float:left
-    }
-    
-    .form_submitter input {
-        background-color:#fffd88;
-        padding:5px;
-        padding-left:20px;
-        border:solid 5px #CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .form_submitter {
-        width:100%;
-        float:left
-    }
-    
+
     .form_sub {
         width:15%;
         height:50px;
-        border:solid 5px #405159;
-        background-color:#CFF0FF;
         border-radius:0;
         color:#405159;
         margin:0;
-        font-weight:700;
         margin-left:85%
     }
     
@@ -2635,7 +1710,8 @@ iframe {
         width: 72%;
         float:left;
         margin-left: 14%;
-        margin-right: 14%;}
+        margin-right: 14%;
+    }
     
     .info_splitters_c {
         padding:0!important;
@@ -2644,65 +1720,32 @@ iframe {
     
     .real {
         width:75%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
         height:55px;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real li {
-        list-style:none;
-        display:inline;
-        float:left;
-        padding:1%;
-        background-color:#fffd88;
-        font-weight:700;
         font-size:100%
     }
     
     .real2 {
         width:75%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real2 li {
-        list-style:none;
-        display:inline;
-        float:left;
-        text-align:left;
-        background-color:#fffd88;
         padding:2%;
         padding-left:5%;
         padding-right:5%;
-        font-weight:700;
         font-size:120%
     }
     
-    .real2 li input {
-        background-color:#CFF0FF;
-        padding:5px;
-        padding-left:20px
-    }
-    
     .li_textarea{
-        width: 99.5%;}
-    
-    .textarea{
-        margin: 0px;
-        width: 100%;
-        height: 100px;
-        padding-left:20px;
-        padding-right: 20px;
-        padding-top: 5px;
-        background-color: #cff0ff;
+        width: 99.5%;
     }
+    
     /******************************************/
     /**************Email Monkey****************/
     /******************************************/
+    
     .emails {
         width:45%;
         float:left
@@ -2759,90 +1802,22 @@ iframe {
     /******************************************/
     /***************The Footer*****************/
     /******************************************/
-    .contact_info_mini {
-        width:100%;
-        color:#405159;
-        font-weight:700;
-        font-size:110%;
-        text-align:center
-    }
-    
-    .footer_drive {
-        width:100%;
-        background-color:#fffd88;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb
-    }
-    
-    .footer_socials {
-        float:left;
-        width:20%
-    }
-    
-    .footer_socials figure {
-        width:100%
-    }
-    
-    .footer_socials figure img {
-        width:100%
-    }
-    
-    .grouping4 {
-        width:67%;
-        margin:0 auto;
-        background-color:#fffd88
-    }
     
     .social_space {
         width:50%;
         margin:0 auto
-    }
-    
-    /******************************************/
-    /************Muliple Sections***************/
-    /******************************************/
-    .grouping,.grouping3 {
-        width:100%;
-        margin:0 auto;
-        background-color:#b5eff7
-    }
-    
-    .grouping h1,.grouping3 h1 {
-        font-weight:700;
-        font-size:500%;
-        text-align:center;
-        color:#405159
-    }
-    
-    .text2 {
-        display:inline-block;
-        width:100%;
-        border:solid 2px #405159;
-        font-size:15px
     }
 }
 
 
 /*************************************************************************/
 /*************************************************************************/
-@media only screen and (min-device-width: 1152px) {/**************************/
+@media only screen and (min-device-width: 1152px) {/**********************/
     html {
         min-width:1152px;
         max-width:1152px
     }
-    
-    /******************************************/
-    /************FancyBox Iframes**************/
-    /******************************************/
-    .fancybox-inner {
-        height:400px!important
-    }
-    
-    .fancybox-skin {
-        border:solid 5px #405159!important;
-        padding:0!important
-    }
-    
+
     /******************************************/
     /***********The Parallax Section***********/
     /******************************************/
@@ -2905,45 +1880,11 @@ iframe {
     /******************************************/
     /******************My Team*****************/
     /******************************************/
-    .peeps {
-        width:100%;
-        height:100%;
-        background-color:#fffd88;
-        border-radius:50%;
-        border:solid 10px #405159
-    }
-    
+  
     .person {
         width:20%;
-        height:auto;
-        float:left;
         margin-left:2.9%;
         margin-right:2%
-    }
-    
-    .person h1 {
-        margin-left:25px
-    }
-    
-    .person figcaption {
-        text-align:center;
-        font-size:15%
-    }
-    
-    .person figure figcaption {
-        text-align:center;
-        font-size:150%;
-        font-weight:700
-    }
-    
-    .personT {
-        margin-left:-22.3%;
-        width:20.1%;
-        height:auto
-    }
-    
-    .personT img {
-        width:100%
     }
     
     .school {
@@ -2958,109 +1899,30 @@ iframe {
         width:50%;
         float:left
     }
-
-    .corps_1{
-        background-color: #528494
-    }
-    
-    .corps_2{
-        background-color: #528494;
-    }
-    
-    .corps_1 img, .corps_2 img {
-        width:80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        float:left;
-    }
-    
-    .listed_table {
-        margin:0 auto;
-        width:100%;
-        margin-top:120px;
-        text-align:center
-    }
     
     .grouping5 h1 {
-        font-weight:700;
         font-size:400%;
-        text-align:center;
-        color:#cff0ff;
-        margin:0;
-        background-color: #528494;
-    }
-    
-    .dressup {
-        width:60%;
-        margin:0 auto
-    }
-    
-    .grouping5 {
-        width:100%;
-        margin:0 auto;
-        background-color:#528494;
-        font-family:Verdana,Geneva,sans-serif
-    }
-    
-    .grouping5 th {
-        background-color:#405159;
-        color:#CFF0FF;
-        padding:20px;
-        font-weight:700;
-        font-size:30px
-    }
-    
-    .grouping5 tr:nth-child(odd) {
-        color:#CFF0FF;
-        background-color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 tr:nth-child(even) {
-        background-color:#CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 td {
-        padding:10px;
-        width:50%
     }
     
     /******************************************/
     /*****************Process******************/
     /******************************************/
-    .grouping2 {
-        width:100%;
-        margin:0 auto;
-        background-color:#405159
-    }
-    
+
     .grouping2 h1 {
-        font-weight:700;
         font-size:500%;
-        text-align:center;
-        color:#CFF0FF
     }
     
     .layer1 {
         width: 75%;
-        margin:0 auto
     }
     
     .layer2 {
         width:31%;
-        margin:0 auto
     }
     
     .plus {
-        font-size:340%;
-        color:#fffd88;
-        font-weight:700;
-        float:left;
         width: 5%;
-        text-align:center;
-        margin-top: 5%;}
+    }
     
     .plusle {
         width:18%!important;
@@ -3075,8 +1937,6 @@ iframe {
         margin-left:auto;
         margin-right:auto;
         width: 16%;
-        margin:0 auto;
-        float:left
     }
     
     .steps_3 figure {
@@ -3086,73 +1946,29 @@ iframe {
         float:left
     }
     
-    .steps_3 img {
-        width:100%;
-        margin:0 auto;
-        float:left
-    }
-    
-    .steps_3 figcaption {
-        color:#fffd88;
-        font-size: 150%;
-        text-align:center;
-        font-weight:700
-    }
-    
     /******************************************/
     /***************Contact us*****************/
     /******************************************/
     .categories {
         width:27%;
-        background-color:#405159!important;
-        color:#fff;
         font-size:100%!important;
-        font-weight:700;
-        padding:1%
-    }
-    
-    .form_submitter {
-        width:30%;
-        float:left
-    }
-    
-    .form_submitter input {
-        background-color:#fffd88;
-        padding:5px;
-        padding-left:20px;
-        border:solid 5px #CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .form_submitter {
-        width:100%;
-        float:left
     }
     
     .form_sub {
         width:15%;
         height:50px;
-        border:solid 5px #405159;
-        background-color:#CFF0FF;
         border-radius:0;
         color:#405159;
         margin:0;
-        font-weight:700;
         margin-left:85%
-    }
-    
-    .emails_space {
-        width:10%;
-        float:left;
-        color:#405159
     }
     
     .info_split {
         width: 72%;
         float:left;
         margin-left: 14%;
-        margin-right: 14%;}
+        margin-right: 14%;
+    }
     
     .info_splitters_c {
         padding:0!important;
@@ -3161,65 +1977,32 @@ iframe {
     
     .real {
         width:68%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
         height:55px;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real li {
-        list-style:none;
-        display:inline;
-        float:left;
-        padding:1%;
-        background-color:#fffd88;
-        font-weight:700;
         font-size:100%
     }
     
     .real2 {
         width:68%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real2 li {
-        list-style:none;
-        display:inline;
-        float:left;
-        text-align:left;
-        background-color:#fffd88;
         padding:2%;
         padding-left:5%;
         padding-right:5%;
-        font-weight:700;
         font-size:120%
     }
     
-    .real2 li input {
-        background-color:#CFF0FF;
-        padding:5px;
-        padding-left:20px
-    }
-    
     .li_textarea{
-        width: 98%;}
-    
-    .textarea{
-        margin: 0px;
-        width: 100%;
-        height: 100px;
-        padding-left:20px;
-        padding-right: 20px;
-        padding-top: 5px;
-        background-color: #cff0ff;
+        width: 98%;
     }
+    
     /******************************************/
     /**************Email Monkey****************/
     /******************************************/
+    
     .emails {
         width:45%;
         float:left
@@ -3276,66 +2059,10 @@ iframe {
     /******************************************/
     /****************The Footer****************/
     /******************************************/
-    .contact_info_mini {
-        width:100%;
-        color:#405159;
-        font-weight:700;
-        font-size:110%;
-        text-align:center
-    }
-    
-    .footer_drive {
-        width:100%;
-        background-color:#fffd88;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb
-    }
-    
-    .footer_socials {
-        float:left;
-        width:20%
-    }
-    
-    .footer_socials figure {
-        width:100%
-    }
-    
-    .footer_socials figure img {
-        width:100%
-    }
-    
-    .grouping4 {
-        width:67%;
-        margin:0 auto;
-        background-color:#fffd88
-    }
-    
+  
     .social_space {
         width:50%;
         margin:0 auto
-    }
-    
-    /******************************************/
-    /*************Multiple Sections************/
-    /******************************************/
-    .grouping,.grouping3 {
-        width:100%;
-        margin:0 auto;
-        background-color:#b5eff7
-    }
-    
-    .grouping h1,.grouping3 h1 {
-        font-weight:700;
-        font-size:500%;
-        text-align:center;
-        color:#405159
-    }
-    
-    .text2 {
-        display:inline-block;
-        width:100%;
-        border:solid 2px #405159;
-        font-size:15px
     }
 }
 
@@ -3346,18 +2073,6 @@ iframe {
     html {
         min-width:1280px;
         max-width:1280px
-    }
-    
-    /******************************************/
-    /*************FancyBox Iframes*************/
-    /******************************************/
-    .fancybox-inner {
-        height:400px!important
-    }
-    
-    .fancybox-skin {
-        border:solid 5px #405159!important;
-        padding:0!important
     }
     
     /******************************************/
@@ -3422,47 +2137,13 @@ iframe {
     /******************************************/
     /******************My Team*****************/
     /******************************************/
-    .peeps {
-        width:100%;
-        height:100%;
-        background-color:#fffd88;
-        border-radius:50%;
-        border:solid 8px #405159
-    }
-    
+   
     .person {
         width:15%;
-        height:auto;
-        float:left;
         margin-left:2.89%;
         margin-right:2%
     }
-    
-    .person h1 {
-        margin-left:25px
-    }
-    
-    .person figcaption {
-        text-align:center;
-        font-size:15%
-    }
-    
-    .person figure figcaption {
-        text-align:center;
-        font-size:150%;
-        font-weight:700
-    }
-    
-    .personT {
-        margin-left:-17.3%;
-        width:15.2%;
-        height:auto
-    }
-    
-    .personT img {
-        width:100%
-    }
-    
+
     .school {
         margin:0 auto;
         width:80%
@@ -3476,108 +2157,29 @@ iframe {
         float:left
     }
 
-    .corps_1{
-        background-color: #528494
-    }
-    
-    .corps_2{
-        background-color: #528494;
-    }
-    
-    .corps_1 img, .corps_2 img {
-        width:80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        float:left;
-    }
-    
-    .listed_table {
-        margin:0 auto;
-        width:100%;
-        margin-top:120px;
-        text-align:center
-    }
-    
     .grouping5 h1 {
-        font-weight:700;
         font-size:400%;
-        text-align:center;
-        color:#cff0ff;
-        margin:0;
-        background-color: #528494;
-    }
-    
-    .dressup {
-        width:60%;
-        margin:0 auto
-    }
-    
-    .grouping5 {
-        width:100%;
-        margin:0 auto;
-        background-color:#528494;
-        font-family:Verdana,Geneva,sans-serif
-    }
-    
-    .grouping5 th {
-        background-color:#405159;
-        color:#CFF0FF;
-        padding:20px;
-        font-weight:700;
-        font-size:30px
-    }
-    
-    .grouping5 tr:nth-child(odd) {
-        color:#CFF0FF;
-        background-color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 tr:nth-child(even) {
-        background-color:#CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 td {
-        padding:10px;
-        width:50%
     }
     
     /******************************************/
     /*****************Process******************/
     /******************************************/
-    .grouping2 {
-        width:100%;
-        margin:0 auto;
-        background-color:#405159
-    }
     
     .grouping2 h1 {
-        font-weight:700;
         font-size:500%;
-        text-align:center;
-        color:#CFF0FF
     }
     
     .layer1 {
         width: 75%;
-        margin:0 auto
     }
     
     .layer2 {
         width:31%;
-        margin:0 auto
     }
     
     .plus {
-        font-size:340%;
-        color:#fffd88;
-        font-weight:700;
-        float:left;
         width: 5%;
-        text-align:center;
-        margin-top: 5%;}
+    }
     
     .plusle {
         width:18%!important;
@@ -3603,59 +2205,21 @@ iframe {
         float:left
     }
     
-    .steps_3 img {
-        width:100%;
-        margin:0 auto;
-        float:left
-    }
-    
-    .steps_3 figcaption {
-        color:#fffd88;
-        font-size: 150%;
-        text-align:center;
-        font-weight:700
-    }
-    
     /******************************************/
     /***************Contact Us*****************/
     /******************************************/
     .categories {
         width:25%;
-        background-color:#405159!important;
-        color:#fff;
         font-size:90%!important;
-        font-weight:700;
-        padding:1%
     }
     
-    .form_submitter {
-        width:30%;
-        float:left
-    }
-    
-    .form_submitter input {
-        background-color:#fffd88;
-        padding:5px;
-        padding-left:20px;
-        border:solid 5px #CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .form_submitter {
-        width:100%;
-        float:left
-    }
     
     .form_sub {
         width:15%;
         height:50px;
-        border:solid 5px #405159;
-        background-color:#CFF0FF;
         border-radius:0;
         color:#405159;
         margin:0;
-        font-weight:700;
         margin-left:85%
     }
     
@@ -3678,62 +2242,28 @@ iframe {
     
     .real {
         width:60%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
         height:55px;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real li {
-        list-style:none;
-        display:inline;
-        float:left;
-        padding:1%;
-        background-color:#fffd88;
-        font-weight:700;
         font-size:100%
     }
     
     .real2 {
         width:60%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real2 li {
-        list-style:none;
-        display:inline;
-        float:left;
-        text-align:left;
-        background-color:#fffd88;
         padding:2%;
         padding-left:5%;
         padding-right:5%;
-        font-weight:700;
         font-size:110%
     }
     
-    .real2 li input {
-        background-color:#CFF0FF;
-        padding:5px;
-        padding-left:20px
-    }
-    
     .li_textarea{
-        width: 99.5%;}
-    
-    .textarea{
-        margin: 0px;
-        width: 100%;
-        height: 100px;
-        padding-left:20px;
-        padding-top: 5px;
-        padding-right: 20px;
-        background-color: #cff0ff;
+        width: 99.5%;
     }
+    
     /******************************************/
     /***************Email Monkey***************/
     /******************************************/
@@ -3793,66 +2323,10 @@ iframe {
     /******************************************/
     /****************The Footer****************/
     /******************************************/
-    .contact_info_mini {
-        width:100%;
-        color:#405159;
-        font-weight:700;
-        font-size:150%;
-        text-align:center
-    }
-    
-    .footer_drive {
-        width:100%;
-        background-color:#fffd88;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb
-    }
-    
-    .footer_socials {
-        float:left;
-        width:20%
-    }
-    
-    .footer_socials figure {
-        width:100%
-    }
-    
-    .footer_socials figure img {
-        width:100%
-    }
-    
-    .grouping4 {
-        width:67%;
-        margin:0 auto;
-        background-color:#fffd88
-    }
     
     .social_space {
         width:50%;
         margin:0 auto
-    }
-    
-    /******************************************/
-    /*************Muliple Sections*************/
-    /******************************************/
-    .grouping,.grouping3 {
-        width:100%;
-        margin:0 auto;
-        background-color:#b5eff7
-    }
-    
-    .grouping h1,.grouping3 h1 {
-        font-weight:700;
-        font-size:500%;
-        text-align:center;
-        color:#405159
-    }
-    
-    .text2 {
-        display:inline-block;
-        width:100%;
-        border:solid 2px #405159;
-        font-size:15px
     }
 }
 
@@ -3863,18 +2337,6 @@ iframe {
     html {
         min-width:1360px;
         max-width:1360px
-    }
-    
-    /******************************************/
-    /*************Fancybox Iframes*************/
-    /******************************************/
-    .fancybox-inner {
-        height:400px!important
-    }
-    
-    .fancybox-skin {
-        border:solid 5px #405159!important;
-        padding:0!important
     }
     
     /******************************************/
@@ -3938,47 +2400,13 @@ iframe {
     /******************************************/
     /******************My Team*****************/
     /******************************************/
-    .peeps {
-        width:100%;
-        height:100%;
-        background-color:#fffd88;
-        border-radius:50%;
-        border:solid 10px #405159
-    }
     
     .person {
         width:15%;
-        height:auto;
-        float:left;
         margin-left:2.85%;
         margin-right:2%
     }
-    
-    .person h1 {
-        margin-left:25px
-    }
-    
-    .person figcaption {
-        text-align:center;
-        font-size:15%
-    }
-    
-    .person figure figcaption {
-        text-align:center;
-        font-size:150%;
-        font-weight:700
-    }
-    
-    .personT {
-        margin-left:-17.23%;
-        width:15.2%;
-        height:auto
-    }
-    
-    .personT img {
-        width:100%
-    }
-    
+
     .school {
         margin:0 auto;
         width:80%
@@ -3991,109 +2419,30 @@ iframe {
         width:50%;
         float:left
     }
-
-    .corps_1{
-        background-color: #528494
-    }
-    
-    .corps_2{
-        background-color: #528494;
-    }
-    
-    .corps_1 img, .corps_2 img {
-        width:80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        float:left;
-    }
-    
-    .listed_table {
-        margin:0 auto;
-        width:100%;
-        margin-top:120px;
-        text-align:center
-    }
     
     .grouping5 h1 {
-        font-weight:700;
         font-size:400%;
-        text-align:center;
-        color:#cff0ff;
-        margin:0;
-        background-color: #528494;
-    }
-    
-    .dressup {
-        width:60%;
-        margin:0 auto
-    }
-    
-    .grouping5 {
-        width:100%;
-        margin:0 auto;
-        background-color:#528494;
-        font-family:Verdana,Geneva,sans-serif
-    }
-    
-    .grouping5 th {
-        background-color:#405159;
-        color:#CFF0FF;
-        padding:20px;
-        font-weight:700;
-        font-size:30px
-    }
-    
-    .grouping5 tr:nth-child(odd) {
-        color:#CFF0FF;
-        background-color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 tr:nth-child(even) {
-        background-color:#CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 td {
-        padding:10px;
-        width:50%
     }
     
     /******************************************/
     /*****************Process******************/
     /******************************************/
-    .grouping2 {
-        width:100%;
-        margin:0 auto;
-        background-color:#405159
-    }
-    
+   
     .grouping2 h1 {
-        font-weight:700;
         font-size:500%;
-        text-align:center;
-        color:#CFF0FF
     }
     
     .layer1 {
         width: 75%;
-        margin:0 auto
     }
     
     .layer2 {
         width:31%;
-        margin:0 auto
     }
     
     .plus {
-        font-size:340%;
-        color:#fffd88;
-        font-weight:700;
-        float:left;
         width: 5%;
-        text-align:center;
-        margin-top: 5%;}
+    }
     
     .plusle {
         width:18%!important;
@@ -4119,59 +2468,20 @@ iframe {
         float:left
     }
     
-    .steps_3 img {
-        width:100%;
-        margin:0 auto;
-        float:left
-    }
-    
-    .steps_3 figcaption {
-        color:#fffd88;
-        font-size: 150%;
-        text-align:center;
-        font-weight:700
-    }
-    
     /******************************************/
     /****************Contact Us****************/
     /******************************************/
     .categories {
         width:25%;
-        background-color:#405159!important;
-        color:#fff;
         font-size:100%!important;
-        font-weight:700;
-        padding:1%
     }
-    
-    .form_submitter {
-        width:30%;
-        float:left
-    }
-    
-    .form_submitter input {
-        background-color:#fffd88;
-        padding:5px;
-        padding-left:20px;
-        border:solid 5px #CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .form_submitter {
-        width:100%;
-        float:left
-    }
-    
+
     .form_sub {
         width:15%;
         height:50px;
-        border:solid 5px #405159;
-        background-color:#CFF0FF;
         border-radius:0;
         color:#405159;
         margin:0;
-        font-weight:700;
         margin-left:85%
     }
     
@@ -4185,7 +2495,8 @@ iframe {
         width: 72%;
         float:left;
         margin-left: 14%;
-        margin-right: 14%;}
+        margin-right: 14%;
+    }
     
     .info_splitters_c {
         padding:0!important;
@@ -4194,62 +2505,28 @@ iframe {
     
     .real {
         width:57%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
         height:55px;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real li {
-        list-style:none;
-        display:inline;
-        float:left;
-        padding:1%;
-        background-color:#fffd88;
-        font-weight:700;
         font-size:100%
     }
     
     .real2 {
         width:57%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real2 li {
-        list-style:none;
-        display:inline;
-        float:left;
-        text-align:left;
-        background-color:#fffd88;
         padding:2%;
         padding-left:5%;
         padding-right:5%;
-        font-weight:700;
         font-size:130%
     }
     
-    .real2 li input {
-        background-color:#CFF0FF;
-        padding:5px;
-        padding-left:20px
-    }
-    
     .li_textarea{
-        width: 99%;}
-    
-    .textarea{
-        margin: 0px;
-        width: 100%;
-        height: 100px;
-        padding-left:20px;
-        padding-top: 5px;
-        padding-right: 20px;
-        background-color: #cff0ff;
+        width: 99%;
     }
+
     /******************************************/
     /***************Email Monkey***************/
     /******************************************/
@@ -4309,87 +2586,19 @@ iframe {
     /******************************************/
     /****************The Footer****************/
     /******************************************/
-    .contact_info_mini {
-        width:100%;
-        color:#405159;
-        font-weight:700;
-        font-size:130%;
-        text-align:center
-    }
-    
-    .footer_drive {
-        width:100%;
-        background-color:#fffd88;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb
-    }
-    
-    .footer_socials {
-        float:left;
-        width:20%
-    }
-    
-    .footer_socials figure {
-        width:100%
-    }
-    
-    .footer_socials figure img {
-        width:100%
-    }
-    
-    .grouping4 {
-        width:67%;
-        margin:0 auto;
-        background-color:#fffd88
-    }
-    
+   
     .social_space {
         width:45%;
         margin:0 auto
-    }
-    
-    /******************************************/
-    /*************Muliple Sections*************/
-    /******************************************/
-    .grouping,.grouping3 {
-        width:100%;
-        margin:0 auto;
-        background-color:#b5eff7
-    }
-    
-    .grouping h1,.grouping3 h1 {
-        font-weight:700;
-        font-size:500%;
-        text-align:center;
-        color:#405159
-    }
-    
-    .text2 {
-        display:inline-block;
-        width:100%;
-        border:solid 2px #405159;
-        font-size:15px
     }
 }
 
 /**************************************************************************/
 /**************************************************************************/
-@media only screen and (min-device-width: 1366px) {/******************************/
+@media only screen and (min-device-width: 1366px) {/***********************/
     html {
         min-width:1366px;
         max-width:1366px
-    }
-    
-    /******************************************/
-    /*************Fancybox Iframes*************/
-    /******************************************/
-    .fancybox-inner {
-        height:400px!important
-    }
-    
-    .fancybox-skin {
-        border:solid 5px #405159!important;
-        padding:0!important
     }
     
     /******************************************/
@@ -4453,45 +2662,11 @@ iframe {
     /******************************************/
     /*****************My Team******************/
     /******************************************/
-    .peeps {
-        width:100%;
-        height:100%;
-        background-color:#fffd88;
-        border-radius:50%;
-        border:solid 10px #405159
-    }
-    
+  
     .person {
         width:15%;
-        height:auto;
-        float:left;
         margin-left:2.85%;
         margin-right:2%
-    }
-    
-    .person h1 {
-        margin-left:25px
-    }
-    
-    .person figcaption {
-        text-align:center;
-        font-size:15%
-    }
-    
-    .person figure figcaption {
-        text-align:center;
-        font-size:150%;
-        font-weight:700
-    }
-    
-    .personT {
-        margin-left:-17.23%;
-        width:15.2%;
-        height:auto
-    }
-    
-    .personT img {
-        width:100%
     }
     
     .school {
@@ -4507,108 +2682,29 @@ iframe {
         float:left
     }
 
-    .corps_1{
-        background-color: #528494
-    }
-    
-    .corps_2{
-        background-color: #528494;
-    }
-    
-    .corps_1 img, .corps_2 img {
-        width:80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        float:left;
-    }
-    
-    .listed_table {
-        margin:0 auto;
-        width:100%;
-        margin-top:120px;
-        text-align:center
-    }
-    
     .grouping5 h1 {
-        font-weight:700;
         font-size:400%;
-        text-align:center;
-        color:#cff0ff;
-        margin:0;
-        background-color: #528494;
-    }
-    
-    .dressup {
-        width:60%;
-        margin:0 auto
-    }
-    
-    .grouping5 {
-        width:100%;
-        margin:0 auto;
-        background-color:#528494;
-        font-family:Verdana,Geneva,sans-serif
-    }
-    
-    .grouping5 th {
-        background-color:#405159;
-        color:#CFF0FF;
-        padding:20px;
-        font-weight:700;
-        font-size:30px
-    }
-    
-    .grouping5 tr:nth-child(odd) {
-        color:#CFF0FF;
-        background-color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 tr:nth-child(even) {
-        background-color:#CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 td {
-        padding:10px;
-        width:50%
     }
     
     /******************************************/
     /*****************Process******************/
     /******************************************/
-    .grouping2 {
-        width:100%;
-        margin:0 auto;
-        background-color:#405159
-    }
     
     .grouping2 h1 {
-        font-weight:700;
         font-size:500%;
-        text-align:center;
-        color:#CFF0FF
     }
     
     .layer1 {
         width: 75%;
-        margin:0 auto
     }
     
     .layer2 {
         width:31%;
-        margin:0 auto
     }
     
     .plus {
-        font-size:340%;
-        color:#fffd88;
-        font-weight:700;
-        float:left;
         width: 5%;
-        text-align:center;
-        margin-top: 5%;}
+    }
     
     .plusle {
         width:18%!important;
@@ -4634,66 +2730,21 @@ iframe {
         float:left
     }
     
-    .steps_3 img {
-        width:100%;
-        margin:0 auto;
-        float:left
-    }
-    
-    .steps_3 figcaption {
-        color:#fffd88;
-        font-size: 125%;
-        text-align:center;
-        font-weight:700
-    }
-    
     /******************************************/
     /*****************Contact Us***************/
     /******************************************/
     .categories {
         width:25%;
-        background-color:#405159!important;
-        color:#fff;
         font-size:100%!important;
-        font-weight:700;
-        padding:1%
-    }
-    
-    .form_submitter {
-        width:30%;
-        float:left
-    }
-    
-    .form_submitter input {
-        background-color:#fffd88;
-        padding:5px;
-        padding-left:20px;
-        border:solid 5px #CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .form_submitter {
-        width:100%;
-        float:left
     }
     
     .form_sub {
         width:15%;
         height:50px;
-        border:solid 5px #405159;
-        background-color:#CFF0FF;
         border-radius:0;
         color:#405159;
         margin:0;
-        font-weight:700;
         margin-left:85%
-    }
-    
-    .emails_space {
-        width:10%;
-        float:left;
-        color:#405159
     }
     
     .info_split {
@@ -4709,61 +2760,26 @@ iframe {
     
     .real {
         width:57%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
         height:55px;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real li {
-        list-style:none;
-        display:inline;
-        float:left;
-        padding:1%;
-        background-color:#fffd88;
-        font-weight:700;
         font-size:100%
     }
     
     .real2 {
         width:57%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real2 li {
-        list-style:none;
-        display:inline;
-        float:left;
-        text-align:left;
-        background-color:#fffd88;
         padding:2%;
         padding-left:5%;
         padding-right:5%;
-        font-weight:700;
         font-size:130%
     }
     
-    .real2 li input {
-        background-color:#CFF0FF;
-        padding:5px;
-        padding-left:20px
-    }
-    
     .li_textarea{
-        width: 99%;}
-    
-    .textarea{
-        margin: 0px;
-        width: 100%;
-        height: 100px;
-        padding-left:20px;
-        padding-top: 5px;
-        padding-right: 20px;
-        background-color: #cff0ff;
+        width: 99%;
     }
     
     /******************************************/
@@ -4831,83 +2847,13 @@ iframe {
         font-weight:700
     }
     
-    .li_textarea{
-        width: 96.4%;
-    }
-    
-    .textarea{
-        margin: 0px;
-        width: 100%;
-        height: 100px;
-        padding-left:20px;
-        padding-right: 20px;
-        padding-top: 5px;
-        background-color: #cff0ff;
-    }
-    
     /******************************************/
     /****************The Footer****************/
     /******************************************/
-    .contact_info_mini {
-        width:100%;
-        color:#405159;
-        font-weight:700;
-        font-size:130%;
-        text-align:center
-    }
-    
-    .footer_drive {
-        width:100%;
-        background-color:#fffd88;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb
-    }
-    
-    .footer_socials {
-        float:left;
-        width:20%
-    }
-    
-    .footer_socials figure {
-        width:100%
-    }
-    
-    .footer_socials figure img {
-        width:100%
-    }
-    
-    .grouping4 {
-        width:67%;
-        margin:0 auto;
-        background-color:#fffd88
-    }
-    
+
     .social_space {
         width:45%;
         margin:0 auto
-    }
-    
-    /******************************************/
-    /*************Muliple Sections*************/
-    /******************************************/
-    .grouping,.grouping3 {
-        width:100%;
-        margin:0 auto;
-        background-color:#b5eff7
-    }
-    
-    .grouping h1,.grouping3 h1 {
-        font-weight:700;
-        font-size:500%;
-        text-align:center;
-        color:#405159
-    }
-    
-    .text2 {
-        display:inline-block;
-        width:100%;
-        border:solid 2px #405159;
-        font-size:15px
     }
 }
 
@@ -4918,19 +2864,6 @@ iframe {
     html {
         min-width:1400px;
         max-width:1400px;
-    }
-    
-    /******************************************/
-    /*************Fancybox Iframes*************/
-    /******************************************/
-    
-    .fancybox-inner {
-        height:400px!important
-    }
-    
-    .fancybox-skin {
-        border:solid 5px #405159!important;
-        padding:0!important
     }
     
     /******************************************/
@@ -4996,45 +2929,10 @@ iframe {
     /*****************My Team******************/
     /******************************************/
     
-    .peeps {
-        width:100%;
-        height:100%;
-        background-color:#fffd88;
-        border-radius:50%;
-        border:solid 10px #405159
-    }
-    
     .person {
         width:15%;
-        height:auto;
-        float:left;
         margin-left:2.85%;
         margin-right:2%
-    }
-    
-    .person h1 {
-        margin-left:25px
-    }
-    
-    .person figcaption {
-        text-align:center;
-        font-size:15%
-    }
-    
-    .person figure figcaption {
-        text-align:center;
-        font-size:150%;
-        font-weight:700
-    }
-    
-    .personT {
-        margin-left:-17.2%;
-        width:15.1%;
-        height:auto
-    }
-    
-    .personT img {
-        width:100%
     }
     
     .school {
@@ -5050,90 +2948,17 @@ iframe {
         width:50%;
         float:left
     }
-
-    .corps_1{
-        background-color: #528494
-    }
-    
-    .corps_2{
-        background-color: #528494;
-    }
-    
-    .corps_1 img, .corps_2 img {
-        width:80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        float:left;
-    }
-    
-    .listed_table {
-        margin:0 auto;
-        width:100%;
-        margin-top:120px;
-        text-align:center
-    }
     
     .grouping5 h1 {
-        font-weight:700;
         font-size:400%;
-        text-align:center;
-        color:#cff0ff;
-        margin:0;
-        background-color: #528494;
-    }
-    
-    .dressup {
-        width:60%;
-        margin:0 auto
-    }
-    
-    .grouping5 {
-        width:100%;
-        margin:0 auto;
-        background-color:#528494;
-        font-family:Verdana,Geneva,sans-serif
-    }
-    
-    .grouping5 th {
-        background-color:#405159;
-        color:#CFF0FF;
-        padding:20px;
-        font-weight:700;
-        font-size:30px
-    }
-    
-    .grouping5 tr:nth-child(odd) {
-        color:#CFF0FF;
-        background-color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 tr:nth-child(even) {
-        background-color:#CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 td {
-        padding:10px;
-        width:50%
     }
     
     /******************************************/
     /****************Process*******************/
     /******************************************/
-    
-    .grouping2 {
-        width:100%;
-        margin:0 auto;
-        background-color:#405159
-    }
-    
+        
     .grouping2 h1 {
-        font-weight:700;
         font-size:500%;
-        text-align:center;
-        color:#CFF0FF
     }
     
     .layer1 {
@@ -5147,13 +2972,8 @@ iframe {
     }
     
     .plus {
-        font-size:340%;
-        color:#fffd88;
-        font-weight:700;
-        float:left;
         width: 5%;
-        text-align:center;
-        margin-top: 5%;}
+    }
     
     .plusle {
         width:18%!important;
@@ -5179,67 +2999,22 @@ iframe {
         float:left
     }
     
-    .steps_3 img {
-        width:100%;
-        margin:0 auto;
-        float:left
-    }
-    
-    .steps_3 figcaption {
-        color:#fffd88;
-        font-size: 175%;
-        text-align:center;
-        font-weight:700
-    }
-
     /******************************************/
     /***************Contact Us*****************/
     /******************************************/
     
     .categories {
         width:25%;
-        background-color:#405159!important;
-        color:#fff;
         font-size:100%!important;
-        font-weight:700;
-        padding:1%
-    }
-    
-    .form_submitter {
-        width:30%;
-        float:left
-    }
-    
-    .form_submitter input {
-        background-color:#fffd88;
-        padding:5px;
-        padding-left:20px;
-        border:solid 5px #CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .form_submitter {
-        width:100%;
-        float:left
     }
     
     .form_sub {
         width:15%;
         height:50px;
-        border:solid 5px #405159;
-        background-color:#CFF0FF;
         border-radius:0;
         color:#405159;
         margin:0;
-        font-weight:700;
         margin-left:85%
-    }
-    
-    .emails_space {
-        width:10%;
-        float:left;
-        color:#405159
     }
     
     .info_split {
@@ -5254,48 +3029,26 @@ iframe {
     
     .real {
         width: 55%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
         height:55px;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real li {
-        list-style:none;
-        display:inline;
-        float:left;
-        padding:1%;
-        background-color:#fffd88;
-        font-weight:700;
         font-size:100%
     }
     
     .real2 {
         width: 55%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real2 li {
-        list-style:none;
-        display:inline;
-        float:left;
-        text-align:left;
-        background-color:#fffd88;
         padding:2%;
         padding-left:5%;
         padding-right:5%;
-        font-weight:700;
         font-size:130%
     }
     
-    .real2 li input {
-        background-color:#CFF0FF;
-        padding:5px;
-        padding-left:20px
+    .li_textarea{
+        width: 99.4%;
     }
     
     /******************************************/
@@ -5355,83 +3108,13 @@ iframe {
         margin:0
     }
     
-    .li_textarea{
-        width: 99.4%;}
-    
-    .textarea{
-        margin: 0px;
-        width: 100%;
-        height: 100px;
-        padding-left:20px;
-        padding-right: 20px;
-        padding-top: 5px;
-        background-color: #cff0ff;
-    }
-    
     /******************************************/
     /****************The Footer****************/
     /******************************************/
     
-    .contact_info_mini {
-        width:100%;
-        color:#405159;
-        font-weight:700;
-        font-size:130%;
-        text-align:center
-    }
-    
-    .footer_drive {
-        width:100%;
-        background-color:#fffd88;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb
-    }
-    
-    .footer_socials {
-        float:left;
-        width:20%
-    }
-    
-    .footer_socials figure {
-        width:100%
-    }
-    
-    .footer_socials figure img {
-        width:100%
-    }
-    
-    .grouping4 {
-        width:67%;
-        margin:0 auto;
-        background-color:#fffd88
-    }
-    
     .social_space {
         width:45%;
         margin:0 auto
-    }
-    
-    /******************************************/
-    /************Muliple Sections**************/
-    /******************************************/
-    .grouping,.grouping3 {
-        width:100%;
-        margin:0 auto;
-        background-color:#b5eff7
-    }
-    
-    .grouping h1,.grouping3 h1 {
-        font-weight:700;
-        font-size:500%;
-        text-align:center;
-        color:#405159
-    }
-    
-    .text2 {
-        display:inline-block;
-        width:100%;
-        border:solid 2px #405159;
-        font-size:15px
     }
 }
 
@@ -5442,19 +3125,6 @@ iframe {
     html {
         min-width:1440px;
         max-width:1440px;
-    }
-    
-    /******************************************/
-    /*************Fancybox Iframes*************/
-    /******************************************/
-    
-    .fancybox-inner {
-        height:400px!important
-    }
-    
-    .fancybox-skin {
-        border:solid 5px #405159!important;
-        padding:0!important
     }
     
     /******************************************/
@@ -5520,45 +3190,10 @@ iframe {
     /*****************My Team******************/
     /******************************************/
     
-    .peeps {
-        width:100%;
-        height:100%;
-        background-color:#fffd88;
-        border-radius:50%;
-        border:solid 10px #405159
-    }
-    
     .person {
         width:15%;
-        height:auto;
-        float:left;
         margin-left:2.85%;
         margin-right:2%
-    }
-    
-    .person h1 {
-        margin-left:25px
-    }
-    
-    .person figcaption {
-        text-align:center;
-        font-size:15%
-    }
-    
-    .person figure figcaption {
-        text-align:center;
-        font-size:150%;
-        font-weight:700
-    }
-    
-    .personT {
-        margin-left:-17.2%;
-        width:15.1%;
-        height:auto
-    }
-    
-    .personT img {
-        width:100%
     }
     
     .school {
@@ -5574,110 +3209,30 @@ iframe {
         width:50%;
         float:left
     }
-
-    .corps_1{
-        background-color: #528494
-    }
-    
-    .corps_2{
-        background-color: #528494;
-    }
-    
-    .corps_1 img, .corps_2 img {
-        width:80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        float:left;
-    }
-    
-    .listed_table {
-        margin:0 auto;
-        width:100%;
-        margin-top:120px;
-        text-align:center
-    }
     
     .grouping5 h1 {
-        font-weight:700;
         font-size:400%;
-        text-align:center;
-        color:#cff0ff;
-        margin:0;
-        background-color: #528494;
-    }
-    
-    .dressup {
-        width:60%;
-        margin:0 auto
-    }
-    
-    .grouping5 {
-        width:100%;
-        margin:0 auto;
-        background-color:#528494;
-        font-family:Verdana,Geneva,sans-serif
-    }
-    
-    .grouping5 th {
-        background-color:#405159;
-        color:#CFF0FF;
-        padding:20px;
-        font-weight:700;
-        font-size:30px
-    }
-    
-    .grouping5 tr:nth-child(odd) {
-        color:#CFF0FF;
-        background-color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 tr:nth-child(even) {
-        background-color:#CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 td {
-        padding:10px;
-        width:50%
     }
     
     /******************************************/
     /****************Process*******************/
     /******************************************/
-    
-    .grouping2 {
-        width:100%;
-        margin:0 auto;
-        background-color:#405159
-    }
-    
+     
     .grouping2 h1 {
-        font-weight:700;
         font-size:500%;
-        text-align:center;
-        color:#CFF0FF
     }
     
     .layer1 {
         width: 75%;
-        margin:0 auto
     }
     
     .layer2 {
         width:31%;
-        margin:0 auto
     }
     
     .plus {
-        font-size:340%;
-        color:#fffd88;
-        font-weight:700;
-        float:left;
         width: 5%;
-        text-align:center;
-        margin-top: 5%;}
+    }
     
     .plusle {
         width:18%!important;
@@ -5702,19 +3257,6 @@ iframe {
         margin-right:2%;
         float:left
     }
-    
-    .steps_3 img {
-        width:100%;
-        margin:0 auto;
-        float:left
-    }
-    
-    .steps_3 figcaption {
-        color:#fffd88;
-        font-size: 175%;
-        text-align:center;
-        font-weight:700
-    }
 
     /******************************************/
     /***************Contact Us*****************/
@@ -5722,48 +3264,16 @@ iframe {
     
     .categories {
         width:25%;
-        background-color:#405159!important;
-        color:#fff;
         font-size:100%!important;
-        font-weight:700;
-        padding:1%
-    }
-    
-    .form_submitter {
-        width:30%;
-        float:left
-    }
-    
-    .form_submitter input {
-        background-color:#fffd88;
-        padding:5px;
-        padding-left:20px;
-        border:solid 5px #CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .form_submitter {
-        width:100%;
-        float:left
     }
     
     .form_sub {
         width:15%;
         height:50px;
-        border:solid 5px #405159;
-        background-color:#CFF0FF;
         border-radius:0;
         color:#405159;
         margin:0;
-        font-weight:700;
         margin-left:85%
-    }
-    
-    .emails_space {
-        width:10%;
-        float:left;
-        color:#405159
     }
     
     .info_split {
@@ -5779,48 +3289,26 @@ iframe {
     
     .real {
         width:60%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
         height:55px;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real li {
-        list-style:none;
-        display:inline;
-        float:left;
-        padding:1%;
-        background-color:#fffd88;
-        font-weight:700;
         font-size:100%
     }
     
     .real2 {
         width:60%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real2 li {
-        list-style:none;
-        display:inline;
-        float:left;
-        text-align:left;
-        background-color:#fffd88;
         padding:2%;
         padding-left:5%;
         padding-right:5%;
-        font-weight:700;
         font-size:130%
     }
     
-    .real2 li input {
-        background-color:#CFF0FF;
-        padding:5px;
-        padding-left:20px
+    .li_textarea{
+        width: 97%;
     }
     
     /******************************************/
@@ -5880,84 +3368,15 @@ iframe {
         margin:0
     }
     
-    .li_textarea{
-        width: 97%;}
-    
-    .textarea{
-        margin: 0px;
-        width: 100%;
-        height: 100px;
-        padding-left:20px;
-        padding-right: 20px;
-        padding-top: 5px;
-        background-color: #cff0ff;
-    }
-    
     /******************************************/
     /****************The Footer****************/
     /******************************************/
-    
-    .contact_info_mini {
-        width:100%;
-        color:#405159;
-        font-weight:700;
-        font-size:130%;
-        text-align:center
-    }
-    
-    .footer_drive {
-        width:100%;
-        background-color:#fffd88;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb
-    }
-    
-    .footer_socials {
-        float:left;
-        width:20%
-    }
-    
-    .footer_socials figure {
-        width:100%
-    }
-    
-    .footer_socials figure img {
-        width:100%
-    }
-    
-    .grouping4 {
-        width:67%;
-        margin:0 auto;
-        background-color:#fffd88
-    }
-    
+
     .social_space {
         width:45%;
         margin:0 auto
     }
-    
-    /******************************************/
-    /************Muliple Sections**************/
-    /******************************************/
-    .grouping,.grouping3 {
-        width:100%;
-        margin:0 auto;
-        background-color:#b5eff7
-    }
-    
-    .grouping h1,.grouping3 h1 {
-        font-weight:700;
-        font-size:500%;
-        text-align:center;
-        color:#405159
-    }
-    
-    .text2 {
-        display:inline-block;
-        width:100%;
-        border:solid 2px #405159;
-        font-size:15px
-    }
+
 }
 
 /*************************************************************/
@@ -5968,20 +3387,7 @@ iframe {
         min-width:1600px;
         max-width:1600px
     }
-    
-    /******************************************/
-    /************Fancybox Iframes**************/
-    /******************************************/
-    
-    .fancybox-inner {
-        height:400px!important
-    }
-    
-    .fancybox-skin {
-        border:solid 5px #405159!important;
-        padding:0!important
-    }
-    
+ 
     /******************************************/
     /**********The Parallax Section************/
     /******************************************/
@@ -6045,45 +3451,10 @@ iframe {
     /*****************My Team******************/
     /******************************************/
     
-    .peeps {
-        width:100%;
-        height:100%;
-        background-color:#fffd88;
-        border-radius:50%;
-        border:solid 10px #405159
-    }
-    
     .person {
         width:15%;
-        height:auto;
-        float:left;
         margin-left:2.87%;
         margin-right:2%
-    }
-    
-    .person h1 {
-        margin-left:25px
-    }
-    
-    .person figcaption {
-        text-align:center;
-        font-size:15%
-    }
-    
-    .person figure figcaption {
-        text-align:center;
-        font-size:150%;
-        font-weight:700
-    }
-    
-    .personT {
-        margin-left:-17.2%;
-        width:15.1%;
-        height:auto
-    }
-    
-    .personT img {
-        width:100%
     }
     
     .school {
@@ -6100,109 +3471,29 @@ iframe {
         float:left
     }
 
-    .corps_1{
-        background-color: #528494
-    }
-    
-    .corps_2{
-        background-color: #528494;
-    }
-    
-    .corps_1 img, .corps_2 img {
-        width:80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        float:left;
-    }
-    
-    .listed_table {
-        margin:0 auto;
-        width:100%;
-        margin-top:120px;
-        text-align:center
-    }
-    
     .grouping5 h1 {
-        font-weight:700;
         font-size:400%;
-        text-align:center;
-        color:#cff0ff;
-        margin:0;
-        background-color: #528494;
-    }
-    
-    .dressup {
-        width:60%;
-        margin:0 auto
-    }
-    
-    .grouping5 {
-        width:100%;
-        margin:0 auto;
-        background-color:#528494;
-        font-family:Verdana,Geneva,sans-serif
-    }
-    
-    .grouping5 th {
-        background-color:#405159;
-        color:#CFF0FF;
-        padding:20px;
-        font-weight:700;
-        font-size:30px
-    }
-    
-    .grouping5 tr:nth-child(odd) {
-        color:#CFF0FF;
-        background-color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 tr:nth-child(even) {
-        background-color:#CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 td {
-        padding:10px;
-        width:50%
     }
     
     /******************************************/
     /*****************Process******************/
     /******************************************/
-    
-    .grouping2 {
-        width:100%;
-        margin:0 auto;
-        background-color:#405159
-    }
-    
+  
     .grouping2 h1 {
-        font-weight:700;
         font-size:500%;
-        text-align:center;
-        color:#CFF0FF
     }
     
     .layer1 {
         width: 75%;
-        margin:0 auto
     }
     
     .layer2 {
         width:31%;
-        margin:0 auto
     }
     
-    .plus {
-        font-size:340%;
-        color:#fffd88;
-        font-weight:700;
-        float:left;
+    .plus {    
         width: 5%;
-        text-align:center;
-        margin-top: 5%;}
+    }
     
     .plusle {
         width:18%!important;
@@ -6227,19 +3518,6 @@ iframe {
         margin-right:2%;
         float:left
     }
-    
-    .steps_3 img {
-        width:100%;
-        margin:0 auto;
-        float:left
-    }
-    
-    .steps_3 figcaption {
-        color:#fffd88;
-        font-size: 125%;
-        text-align:center;
-        font-weight:700
-    }
 
     /******************************************/
     /***************Contact Us*****************/
@@ -6247,48 +3525,16 @@ iframe {
     
     .categories {
         width:25%;
-        background-color:#405159!important;
-        color:#fff;
         font-size:100%!important;
-        font-weight:700;
-        padding:1%
-    }
-    
-    .form_submitter {
-        width:30%;
-        float:left
-    }
-    
-    .form_submitter input {
-        background-color:#fffd88;
-        padding:5px;
-        padding-left:20px;
-        border:solid 5px #CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .form_submitter {
-        width:100%;
-        float:left
     }
     
     .form_sub {
         width:15%;
         height:50px;
-        border:solid 5px #405159;
-        background-color:#CFF0FF;
         border-radius:0;
         color:#405159;
         margin:0;
-        font-weight:700;
         margin-left:85%
-    }
-    
-    .emails_space {
-        width:10%;
-        float:left;
-        color:#405159
     }
     
     .info_split {
@@ -6304,62 +3550,28 @@ iframe {
     
     .real {
         width:50%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
         height:55px;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real li {
-        list-style:none;
-        display:inline;
-        float:left;
-        padding:1%;
-        background-color:#fffd88;
-        font-weight:700;
         font-size:100%
     }
     
     .real2 {
         width:50%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real2 li {
-        list-style:none;
-        display:inline;
-        float:left;
-        text-align:left;
-        background-color:#fffd88;
         padding:2%;
         padding-left:5%;
         padding-right:5%;
-        font-weight:700;
         font-size:130%
-    }
-    
-    .real2 li input {
-        background-color:#CFF0FF;
-        padding:5px;
-        padding-left:20px
     }
 
     .li_textarea{
-        width: 98.5%;}
-    
-    .textarea{
-        margin: 0px;
-        width: 100%;
-        height: 100px;
-        padding-left:20px;
-        padding-right: 20px;
-        padding-top: 5px;
-        background-color: #cff0ff;
+        width: 98.5%;
     }
+    
     /******************************************/
     /**************Email Monkey****************/
     /******************************************/
@@ -6421,67 +3633,9 @@ iframe {
     /***************The Footer*****************/
     /******************************************/
     
-    .contact_info_mini {
-        width:100%;
-        color:#405159;
-        font-weight:700;
-        font-size:130%;
-        text-align:center
-    }
-    
-    .footer_drive {
-        width:100%;
-        background-color:#fffd88;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb
-    }
-    
-    .footer_socials {
-        float:left;
-        width:20%
-    }
-    
-    .footer_socials figure {
-        width:100%
-    }
-    
-    .footer_socials figure img {
-        width:100%
-    }
-    
-    .grouping4 {
-        width:67%;
-        margin:0 auto;
-        background-color:#fffd88
-    }
-    
     .social_space {
         width:45%;
         margin:0 auto
-    }
-
-    /******************************************/
-    /************Muliple Sections**************/
-    /******************************************/
-    
-    .grouping,.grouping3 {
-        width:100%;
-        margin:0 auto;
-        background-color:#b5eff7
-    }
-    
-    .grouping h1,.grouping3 h1 {
-        font-weight:700;
-        font-size:500%;
-        text-align:center;
-        color:#405159
-    }
-    
-    .text2 {
-        display:inline-block;
-        width:100%;
-        border:solid 2px #405159;
-        font-size:15px
     }
 }
 
@@ -6493,19 +3647,6 @@ iframe {
     html {
         min-width:1680px;
         max-width:1680px
-    }
-    
-    /******************************************/
-    /************Fancybox Iframes**************/
-    /******************************************/
-    
-    .fancybox-inner {
-        height:400px!important
-    }
-    
-    .fancybox-skin {
-        border:solid 5px #405159!important;
-        padding:0!important
     }
     
     /******************************************/
@@ -6569,47 +3710,13 @@ iframe {
     /******************************************/
     /*****************My Team******************/
     /******************************************/
-    .peeps {
-        width:100%;
-        height:100%;
-        background-color:#fffd88;
-        border-radius:50%;
-        border:solid 10px #405159
-    }
     
     .person {
         width:14%;
-        height:auto;
-        float:left;
         margin-left:3.71%;
         margin-right:2%
     }
-    
-    .person h1 {
-        margin-left:25px
-    }
-    
-    .person figcaption {
-        text-align:center;
-        font-size:15%
-    }
-    
-    .person figure figcaption {
-        text-align:center;
-        font-size:150%;
-        font-weight:700
-    }
-    
-    .personT {
-        margin-left:-16.25%;
-        width:14.2%;
-        height:auto
-    }
-    
-    .personT img {
-        width:100%
-    }
-    
+
     .school {
         margin:0 auto;
         width:80%
@@ -6622,109 +3729,30 @@ iframe {
         width:50%;
         float:left
     }
-
-    .corps_1{
-        background-color: #528494
-    }
-    
-    .corps_2{
-        background-color: #528494;
-    }
-    
-    .corps_1 img, .corps_2 img {
-        width:80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        float:left;
-    }
-    
-    .listed_table {
-        margin:0 auto;
-        width:100%;
-        margin-top:120px;
-        text-align:center
-    }
     
     .grouping5 h1 {
-        font-weight:700;
         font-size:500%;
-        text-align:center;
-        color:#cff0ff;
-        margin:0;
-        background-color: #528494;
-    }
-    
-    .dressup {
-        width:60%;
-        margin:0 auto
-    }
-    
-    .grouping5 {
-        width:100%;
-        margin:0 auto;
-        background-color:#528494;
-        font-family:Verdana,Geneva,sans-serif
-    }
-    
-    .grouping5 th {
-        background-color:#405159;
-        color:#CFF0FF;
-        padding:20px;
-        font-weight:700;
-        font-size:30px
-    }
-    
-    .grouping5 tr:nth-child(odd) {
-        color:#CFF0FF;
-        background-color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 tr:nth-child(even) {
-        background-color:#CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 td {
-        padding:10px;
-        width:50%
     }
     
     /******************************************/
     /*****************Process******************/
     /******************************************/
-    .grouping2 {
-        width:100%;
-        margin:0 auto;
-        background-color:#405159
-    }
-    
+   
     .grouping2 h1 {
-        font-weight:700;
         font-size:500%;
-        text-align:center;
-        color:#CFF0FF
     }
     
     .layer1 {
         width: 75%;
-        margin:0 auto
     }
     
     .layer2 {
         width:31%;
-        margin:0 auto
     }
     
     .plus {
-        font-size:340%;
-        color:#fffd88;
-        font-weight:700;
-        float:left;
         width: 5%;
-        text-align:center;
-        margin-top: 5%;}
+    }
     
     .plusle {
         width:18%!important;
@@ -6749,74 +3777,30 @@ iframe {
         margin-right:2%;
         float:left
     }
-    
-    .steps_3 img {
-        width:100%;
-        margin:0 auto;
-        float:left
-    }
-    
-    .steps_3 figcaption {
-        color:#fffd88;
-        font-size: 175%;
-        text-align:center;
-        font-weight:700
-    }
-        
+
     /******************************************/
     /***************Contact Us*****************/
     /******************************************/
     .categories {
         width:29%;
-        background-color:#405159!important;
-        color:#fff;
         font-size:130%!important;
-        font-weight:700;
-        padding:1%
-    }
-    
-    .form_submitter {
-        width:30%;
-        float:left
-    }
-    
-    .form_submitter input {
-        background-color:#fffd88;
-        padding:5px;
-        padding-left:20px;
-        border:solid 5px #CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .form_submitter {
-        width:100%;
-        float:left
     }
     
     .form_sub {
         width:15%;
         height:50px;
-        border:solid 5px #405159;
-        background-color:#CFF0FF;
         border-radius:0;
         color:#405159;
         margin:0;
-        font-weight:700;
         font-size:150%;
         margin-left:85%
-    }
-    
-    .emails_space {
-        width:10%;
-        float:left;
-        color:#405159
     }
     
     .info_split {
         width: 60%;
         margin-left: 20%;
-        margin-right: 20%;}
+        margin-right: 20%;
+    }
     
     .info_splitters_c {
         padding:0!important;
@@ -6825,62 +3809,28 @@ iframe {
     
     .real {
         width:56%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
         height:60px;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real li {
-        list-style:none;
-        display:inline;
-        float:left;
-        padding:1%;
-        background-color:#fffd88;
         font-weight:700;
-        font-size:120%
     }
     
     .real2 {
         width:56%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real2 li {
-        list-style:none;
-        display:inline;
-        float:left;
-        text-align:left;
-        background-color:#fffd88;
         padding:3%;
         padding-left:5%;
         padding-right:5%;
-        font-weight:700;
         font-size:140%
-    }
-    
-    .real2 li input {
-        background-color:#CFF0FF;
-        padding:5px;
-        padding-left:20px
     }
 
     .li_textarea{
-        width: 98%;}
-    
-    .textarea{
-        margin: 0px;
-        width: 100%;
-        height: 100px;
-        padding-left:20px;
-        padding-right: 20px;
-        padding-top: 5px;
-        background-color: #cff0ff;
+        width: 98%;
     }
+
     /******************************************/
     /**************Email Monkey****************/
     /******************************************/
@@ -6942,66 +3892,10 @@ iframe {
     /******************************************/
     /***************The Footer*****************/
     /******************************************/
-    .contact_info_mini {
-        width:100%;
-        color:#405159;
-        font-weight:700;
-        font-size:150%;
-        text-align:center
-    }
-    
-    .footer_drive {
-        width:100%;
-        background-color:#fffd88;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb
-    }
-    
-    .footer_socials {
-        float:left;
-        width:20%
-    }
-    
-    .footer_socials figure {
-        width:100%
-    }
-    
-    .footer_socials figure img {
-        width:100%
-    }
-    
-    .grouping4 {
-        width:67%;
-        margin:0 auto;
-        background-color:#fffd88
-    }
-    
+   
     .social_space {
         width:50%;
         margin:0 auto
-    }
-    
-    /******************************************/
-    /************Multple Sections**************/
-    /******************************************/
-    .grouping,.grouping3 {
-        width:100%;
-        margin:0 auto;
-        background-color:#b5eff7
-    }
-    
-    .grouping h1,.grouping3 h1 {
-        font-weight:700;
-        font-size:600%;
-        text-align:center;
-        color:#405159
-    }
-    
-    .text2 {
-        display:inline-block;
-        width:100%;
-        border:solid 2px #405159;
-        font-size:15px
     }
 }
 
@@ -7013,19 +3907,6 @@ iframe {
     html {
         min-width:1920px;
         max-width:1920px
-    }
-    
-    /******************************************/
-    /*************Fancybox iframes*************/
-    /******************************************/
-
-    .fancybox-inner {
-        height:400px!important
-    }
-    
-    .fancybox-skin {
-        border:solid 5px #405159!important;
-        padding:0!important
     }
     
     /******************************************/
@@ -7090,48 +3971,13 @@ iframe {
     /******************************************/
     /*****************My Team******************/
     /******************************************/
-
-    .peeps {
-        width:100%;
-        height:100%;
-        background-color:#fffd88;
-        border-radius:50%;
-        border:solid 10px #405159
-    }
     
     .person {
         width:14%;
-        height:auto;
-        float:left;
         margin-left:3.7%;
         margin-right:2%
     }
-    
-    .person h1 {
-        margin-left:25px
-    }
-    
-    .person figcaption {
-        text-align:center;
-        font-size:15%
-    }
-    
-    .person figure figcaption {
-        text-align:center;
-        font-size:150%;
-        font-weight:700
-    }
-    
-    .personT {
-        margin-left:-16.22%;
-        width:14.2%;
-        height:auto
-    }
-    
-    .personT img {
-        width:100%
-    }
-    
+  
     .school {
         margin:0 auto;
         width:80%
@@ -7146,110 +3992,29 @@ iframe {
         float:left
     }
 
-    .corps_1{
-        background-color: #528494
-    }
-    
-    .corps_2{
-        background-color: #528494;
-    }
-    
-    .corps_1 img, .corps_2 img {
-        width:80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        float:left;
-    }
-    
-    .listed_table {
-        margin:0 auto;
-        width:100%;
-        margin-top:120px;
-        text-align:center
-    }
-    
     .grouping5 h1 {
-        font-weight:700;
         font-size:500%;
-        text-align:center;
-        color:#cff0ff;
-        margin:0;
-        background-color: #528494;
-        font-family:Verdana,Geneva,sans-serif;
-    }
-    
-    .dressup {
-        width:60%;
-        margin:0 auto
-    }
-    
-    .grouping5 {
-        width:100%;
-        margin:0 auto;
-        background-color:#528494;
-        font-family:Verdana,Geneva,sans-serif
-    }
-    
-    .grouping5 th {
-        background-color:#405159;
-        color:#CFF0FF;
-        padding:20px;
-        font-weight:700;
-        font-size:30px
-    }
-    
-    .grouping5 tr:nth-child(odd) {
-        color:#CFF0FF;
-        background-color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 tr:nth-child(even) {
-        background-color:#CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .grouping5 td {
-        padding:10px;
-        width:50%
     }
 
     /******************************************/
     /****************Process*******************/
     /******************************************/
-
-    .grouping2 {
-        width:100%;
-        margin:0 auto;
-        background-color:#405159
-    }
     
     .grouping2 h1 {
-        font-weight:700;
         font-size:500%;
-        text-align:center;
-        color:#CFF0FF
     }
     
     .layer1 {
         width: 75%;
-        margin:0 auto
     }
     
     .layer2 {
         width:31%;
-        margin:0 auto
     }
     
     .plus {
-        font-size:340%;
-        color:#fffd88;
-        font-weight:700;
-        float:left;
         width: 5%;
-        text-align:center;
-        margin-top: 5%;}
+    }
     
     .plusle {
         width:18%!important;
@@ -7274,19 +4039,6 @@ iframe {
         margin-right:2%;
         float:left
     }
-    
-    .steps_3 img {
-        width:100%;
-        margin:0 auto;
-        float:left
-    }
-    
-    .steps_3 figcaption {
-        color:#fffd88;
-        font-size: 200%;
-        text-align:center;
-        font-weight:700
-    }
 
     /******************************************/
     /***************Contact Us*****************/
@@ -7294,48 +4046,16 @@ iframe {
 
     .categories {
         width:30%;
-        background-color:#405159!important;
-        color:#fff;
         font-size:130%!important;
-        font-weight:700;
-        padding:1%
-    }
-    
-    .form_submitter {
-        width:30%;
-        float:left
-    }
-    
-    .form_submitter input {
-        background-color:#fffd88;
-        padding:5px;
-        padding-left:20px;
-        border:solid 5px #CFF0FF;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .form_submitter {
-        width:100%;
-        margin-left:80%
     }
     
     .form_sub {
         width:20%;
         height:50px;
-        border:solid 5px #405159;
-        background-color:#CFF0FF;
         border-radius:0;
         color:#405159;
         margin:0;
-        font-weight:700;
         font-size:180%
-    }
-    
-    .emails_space {
-        width:10%;
-        float:left;
-        color:#405159
     }
     
     .info_split {
@@ -7352,63 +4072,27 @@ iframe {
     
     .real {
         width:50%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
         height:60px;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real li {
-        list-style:none;
-        display:inline;
-        float:left;
-        padding:1%;
-        background-color:#fffd88;
-        font-weight:700;
         font-size:120%
     }
     
     .real2 {
         width:50%;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb;
-        background-color:#fffd88;
-        margin:0 auto
     }
     
     .real2 li {
-        list-style:none;
-        display:inline;
-        float:left;
-        text-align:left;
-        background-color:#fffd88;
         padding:3%;
         padding-left:5%;
         padding-right:5%;
-        font-weight:700;
         font-size:140%
-    }
-    
-    .real2 li input {
-        background-color:#CFF0FF;
-        padding:5px;
-        padding-left:20px
     }
     
     .li_textarea{
         width: 96%
     }
-    
-    .textarea{
-        margin: 0px;
-        width: 100%;
-        height: 100px;
-        padding-left:20px;
-        padding-top: 5px;
-        background-color: #cff0ff;
-    }
-
     
     /******************************************/
     /*************Email Monkey*****************/
@@ -7472,67 +4156,9 @@ iframe {
     /******************************************/
     /***************The Footer*****************/
     /******************************************/
-     
-    .contact_info_mini {
-        width:100%;
-        color:#405159;
-        font-weight:700;
-        font-size:150%;
-        text-align:center
-    }
-    
-    .footer_drive {
-        width:100%;
-        background-color:#fffd88;
-        -webkit-box-shadow:0 1px 3px 0 #bbb;
-        box-shadow:0 1px 3px 0 #bbb
-    }
-    
-    .footer_socials {
-        float:left;
-        width:20%
-    }
-    
-    .footer_socials figure {
-        width:100%
-    }
-    
-    .footer_socials figure img {
-        width:100%
-    }
-    
-    .grouping4 {
-        width:67%;
-        margin:0 auto;
-        background-color:#fffd88
-    }
     
     .social_space {
         width:40%;
         margin:0 auto
-    }
-    
-    /******************************************/
-    /************Multiple Sections*************/
-    /******************************************/
-    
-    .grouping,.grouping3 {
-        width:100%;
-        margin:0 auto;
-        background-color:#b5eff7
-    }
-    
-    .grouping h1,.grouping3 h1 {
-        font-weight:700;
-        font-size:600%;
-        text-align:center;
-        color:#405159
-    }
-    
-    .text2 {
-        display:inline-block;
-        width:100%;
-        border:solid 2px #405159;
-        font-size:15px
     }
 }
