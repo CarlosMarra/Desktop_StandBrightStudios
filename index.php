@@ -17,6 +17,8 @@
 
         
     <title>Stand Bright Studios</title>
+    
+    
     <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
     <!--[if lt IE 9]><script src="bootstrap/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -37,10 +39,11 @@
     <link rel="icon" type="image/x-icon" href="images/logo.ico" >
     <link rel="shortcut icon" type="image/x-icon" href="images/logo.ico"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
     
-    <!-----><script src="jcssM/fullswing.min.js"></script>
-    <!-----><link href="jcssM/fullswing.min.css" rel="stylesheet">
-
+    <link href="jcssM/fullswing.min.css" rel="stylesheet">
+    <script src="jcssM/fullswing.min.js"></script>
+    
     <script src="fancybox_source/jquery.fancybox.js?v=2.1.5" type="text/javascript"></script>
     <link href="fancybox_source/jquery.fancybox.css?v=2.1.5" media="screen" rel="stylesheet" type=
     "text/css">
@@ -53,28 +56,35 @@
     <div class="parallax_height">
         <section class="pages" data-speed="10" data-type="background" id="home">
             <article>
- <div><div class="gif_1"><img src="images/gifs/gif-left.gif" dynsrc="images/gifs/gif-left.gif" loop="infinite"></div> 
-                <figure>
-                    <img src="images/logo.png">
-                    <figcaption>
-                        STAND BRIGHT STUDIOS
-                    </figcaption>
-                </figure>
-               
-                
-                <div class="iframers">
-                <iframe frameborder="0" height="450" src=
-                "https://player.vimeo.com/video/128739721?color=ff005a&title=0&byline=0&portrait=0"
-                width="800"></iframe></div>
-                <div class="gif_2"><img src="images/gifs/gif-lefty.gif" dynsrc="images/gifs/gif-lefty.gif" loop="infinite"></div>
-                <div style="clear: both;"></div>
-                <div class="bridge"><img src="images/gifs/bridge.gif" dynsrc="images/gifs/bridge.gif" loop="infinite"> </div>
+                <div>
+                    <div class="backgrounded" style="background-image: url('images/splash.jpg'); background-size: cover;">
+                        <div class="gif_1">
+                            <img src="images/gifs/weirdo.png">
+                        </div> 
+                        
+                        <div class="logic" style="height: 0px; z-index:10000;">
+                             <img class="balloon" src="images/gifs/logic.png" dynsrc="images/gifs/gif-left.gif" loop="infinite">
+                        </div>
+                                         
+                        <div class="iframers">
+                        <iframe frameborder="0" height="450" src=
+                        "https://player.vimeo.com/video/128739721?color=ff005a&title=0&byline=0&portrait=0"
+                        width="800"></iframe></div>
+                        <div class="gif_2">
+                            <img src="images/gifs/weirdo.png">
+                        </div>
+                        <div class="logic" style="height: 0px; margin-left:75%; z-index:10000;">
+                             <img class="balloon" src="images/gifs/logic2.png" dynsrc="images/gifs/gif-left.gif" loop="infinite">
+                        </div>
+                    </div>
+                    <div style="clear: both;"></div>
+                    <div class="bridge" style="z-index:5000; position: relative"><img src="images/gifs/bridge.gif" dynsrc="images/gifs/bridge.gif" loop="infinite"> </div>
                 </div>
             </article>
         </section>
     </div>
 
-    <div class="boxbox" style="margin-top: -2px">
+    <div class="boxbox" style="margin-top: -2px; z-index:5000; position: relative">
         <div class="scroll2"></div>
         
         <div class="grouping">
@@ -86,7 +96,7 @@
                     <div class="person">
                         <figure>
                             <a class="a fancybox fancybox.iframe" data-fancybox-group="gallery"
-                            href="iframe.php?person=Sidney"><img alt="person" class="peeps" src="images/people/Sidney.png"></a>
+                            href="iframe.php?person=Sidney"><img width="300px" height="300px" alt="person" class="peeps" src="images/people/Sidney.png"></a>
 
                             <figcaption>
                                 SIDNEY
@@ -97,7 +107,7 @@
                     <div class="person">
                         <figure>
                             <a class="a fancybox fancybox.iframe" data-fancybox-group="gallery"
-                            href="iframe.php?person=Carlos"><img alt="person" class="peeps" src="images/people/Carlos.png"></a>
+                            href="iframe.php?person=Carlos"><img width="300px" height="300px" alt="person" class="peeps" src="images/people/Carlos.png"></a>
 
                             <figcaption>
                                 CARLOS
@@ -108,7 +118,7 @@
                     <div class="person">
                         <figure>
                             <a class="a fancybox fancybox.iframe" data-fancybox-group="gallery"
-                            href="iframe.php?person=Omer"><img alt="person" class="peeps" src="images/people/Omer.png"></a>
+                            href="iframe.php?person=Omer"><img width="300px" height="300px" alt="person" class="peeps" src="images/people/Omer.png"></a>
 
                             <figcaption>
                                 OMER
@@ -119,7 +129,7 @@
                     <div class="person">
                         <figure>
                             <a class="a fancybox fancybox.iframe" data-fancybox-group="gallery"
-                            href="iframe.php?person=Zach"><img alt="person" class="peeps" src="images/people/Zach.png"></a>
+                            href="iframe.php?person=Zach"><img width="300px" height="300px" alt="person" class="peeps" src="images/people/Zach.png"></a>
 
                             <figcaption>
                                 ZACH
@@ -130,7 +140,7 @@
                     <div class="person">
                         <figure>
                             <a class="a fancybox fancybox.iframe" data-fancybox-group="gallery"
-                            href="iframe.php?person=Shanti"><img alt="person" class="peeps" src="images/people/Shanti.png"></a>
+                            href="iframe.php?person=Shanti"><img width="300px" height="300px" alt="person" class="peeps" src="images/people/Shanti.png"></a>
 
                             <figcaption>
                                 SHANTI
@@ -141,7 +151,7 @@
                     <div class="person">
                         <figure>
                             <a class="a fancybox fancybox.iframe" data-fancybox-group="gallery"
-                            href="iframe.php?person=Stephen"><img alt="person" class="peeps" src="images/people/Stephen.png"></a>
+                            href="iframe.php?person=Stephen"><img width="300px" height="300px" alt="person" class="peeps" src="images/people/Stephen.png"></a>
 
                             <figcaption>
                                 STEPHEN
@@ -152,7 +162,7 @@
                     <div class="person">
                         <figure>
                             <a class="a fancybox fancybox.iframe" data-fancybox-group="gallery"
-                            href="iframe.php?person=Ben"><img alt="person" class="peeps" src="images/people/Ben.png"></a>
+                            href="iframe.php?person=Ben"><img width="300px" height="300px" alt="person" class="peeps" src="images/people/Ben.png"></a>
 
                             <figcaption>
                                 BEN
@@ -163,7 +173,7 @@
                     <div class="person">
                         <figure>
                             <a class="a fancybox fancybox.iframe" data-fancybox-group="gallery"
-                            href="iframe.php?person=David"><img alt="person" class="peeps" src="images/people/David.png"></a>
+                            href="iframe.php?person=David"><img width="300px" height="300px" alt="person" class="peeps" src="images/people/David.png"></a>
 
                             <figcaption>
                                 DAVID
@@ -174,7 +184,7 @@
                     <div class="person">
                         <figure>
                             <a class="a fancybox fancybox.iframe" data-fancybox-group="gallery"
-                            href="iframe.php?person=Lexy"><img alt="person" class="peeps" src="images/people/Lexy.png"></a>
+                            href="iframe.php?person=Lexy"><img width="300px" height="300px" alt="person" class="peeps" src="images/people/Lexy.png"></a>
 
                             <figcaption>
                                 LEXY
@@ -185,7 +195,7 @@
                     <div class="person">
                         <figure>
                             <a class="a fancybox fancybox.iframe" data-fancybox-group="gallery"
-                            href="iframe.php?person=Aimee"><img alt="person" class="peeps" src="images/people/Aimee.png"></a>
+                            href="iframe.php?person=Aimee"><img width="300px" height="300px" alt="person" class="peeps" src="images/people/Aimee.png"></a>
 
                             <figcaption>
                                 AIMEE
@@ -199,7 +209,7 @@
         </div>
     </div>
 
-    <div class="boxbox2">
+    <div class="boxbox2" style="margin-top: -2px; z-index:5000; position: relative">
         <div class="scroll3"></div>
 
         <div class="grouping5">
@@ -211,9 +221,9 @@
             <div class="spacing_special">
 
             </div>
-                <div class="corps_1"><img alt="person" src=
+                <div class="corps_1"><img width="1080px" height="100%" alt="person" src=
                             "images/corporate.png"></div>
-                <div class="corps_2"><img alt="person" src=
+                <div class="corps_2"><img width="1080px" height="100%" alt="person" src=
                             "images/television.png"></div>
         </div>
                     <div class="spacing_special">
@@ -235,7 +245,7 @@
                 <div class="steps_3">
                     <figure>
                         <a class="b fancybox fancybox.iframe" data-fancybox-group="gallery" href=
-                        "iframe2.php?person=lightbulb_icon"><img alt="person" src=
+                        "iframe2.php?person=lightbulb_icon"><img width="300px" height="100%" alt="person" src=
                         "images/icons/lightbulb_icon.png"></a>
 
                         <figcaption>
@@ -251,7 +261,7 @@
                 <div class="steps_3">
                     <figure>
                         <a class="b fancybox fancybox.iframe" data-fancybox-group="gallery" href=
-                        "iframe2.php?person=pencil_icon"><img alt="person" src=
+                        "iframe2.php?person=pencil_icon"><img width="300px" height="100%" alt="person" src=
                         "images/icons/pencil_icon.png"></a>
 
                         <figcaption>
@@ -267,7 +277,7 @@
                 <div class="steps_3">
                     <figure>
                         <a class="b fancybox fancybox.iframe" data-fancybox-group="gallery" href=
-                        "iframe2.php?person=storyboard_icon"><img alt="person" src=
+                        "iframe2.php?person=storyboard_icon"><img width="300px" height="100%" alt="person" src=
                         "images/icons/storyboard_icon.png"></a>
 
                         <figcaption>
@@ -284,7 +294,7 @@
                 <div class="steps_3">
                     <figure>
                         <a class="b fancybox fancybox.iframe" data-fancybox-group="gallery" href=
-                        "iframe2.php?person=video_icon"><img alt="person" src=
+                        "iframe2.php?person=video_icon"><img width="300px" height="100%" alt="person" src=
                         "images/icons/video_icon.png"></a>
 
                         <figcaption>
@@ -300,7 +310,7 @@
                 <div class="steps_3">
                     <figure>
                         <a class="b fancybox fancybox.iframe" data-fancybox-group="gallery" href=
-                        "iframe2.php?person=checkmark_icon"><img alt="person" src=
+                        "iframe2.php?person=checkmark_icon"><img width="300px" height="100%" alt="person" src=
                         "images/icons/checkmark_icon.png"></a>
 
                         <figcaption>
@@ -327,7 +337,7 @@
             
             <div class="spacing"></div>
 
-            <form action="server.php" method="POST" id="form1">
+            <form action="connections/server.php" method="POST" id="form1">
                 
                 <div class="real">
                         <li class="categories">ANIMATION MEDIUM</li>
@@ -419,12 +429,24 @@
                     </div>
                     
                     <div class="info_split">
+                       
                             <li class="li_textarea"">Additional Details<br>
-                            <textarea class="text2 textarea" id="company_details" name="company_details" placeholder="Examples: project type, scope, timeline, etc." type=
+                            <textarea class="text2 textarea" id="company_details" name="company_details" placeholder="Example Details: project type, scope, timeline, etc." type=
                             "text" style=""></textarea></li>
     
                             <div style="clear: both;"></div>
-
+                        
+                            <li class="li_textarea">How did you find us?<br>
+                            
+                            <select class="text2" id="company_know" name="company_know" type="text" style=" background-color: #CFF0FF; padding: 5px; padding-left: 10px;">                               
+                                <option value="" selected>Select your option</option>
+                                <option value="Social Media">Social Media</option>
+                                <option value="Rachel">Rachel (North American Sales Executive)</option>
+                                <option value="Aimee">Aimee (European Sales Executive)</option>
+                            </select>
+                            </li>
+                                
+                            <div style="clear: both;"></div>
                     </div>
     
                     <div class="form_submitter">
@@ -443,7 +465,7 @@
 
     
     
-    <form action="server.php" method="POST" id="form2">
+    <form action="connections/server.php" method="POST" id="form2">
 
         <div class="mail_monkey">
             <div class="spacing"></div>
@@ -481,31 +503,31 @@
 
                 <div class="footer_socials">
                     <figure>
-                        <a href="https://www.facebook.com/pages/Stand-Bright-Studios/1568394150088377?fref=ts"><img alt="person" src="images/icons/facebook.png"></a>
+                        <a href="https://www.facebook.com/pages/Stand-Bright-Studios/1568394150088377?fref=ts"><img width="110px" height="100%" alt="person" src="images/icons/facebook.png"></a>
                     </figure>
                 </div>
 
                 <div class="footer_socials">
                     <figure>
-                        <a href="https://twitter.com/Stand_Brightly"><img alt="person" src="images/icons/twitter.png"></a>
+                        <a href="https://twitter.com/Stand_Brightly"><img width="110px" height="100%" alt="person" src="images/icons/twitter.png"></a>
                     </figure>
                 </div>
 
                 <div class="footer_socials">
                     <figure>
-                        <a href="http://standbrightstudios.tumblr.com/"><img alt="person" src="images/icons/tumblr.png"></a>
+                        <a href="http://standbrightstudios.tumblr.com/"><img width="110px" height="100%" alt="person" src="images/icons/tumblr.png"></a>
                     </figure>
                 </div>
 
                 <div class="footer_socials">
                     <figure>
-                        <a ><img alt="person" src="images/icons/instagram.png"></a>
+                        <a ><img width="110px" height="100%" alt="person" src="images/icons/instagram.png"></a>
                     </figure>
                 </div>
 
                 <div class="footer_socials">
                     <figure>
-                        <a><img alt="person" src="images/icons/vimeo.png"></a>
+                        <a><img width="110px" height="100%" alt="person" src="images/icons/vimeo.png"></a>
                     </figure>
                 </div>
 
@@ -517,6 +539,7 @@
             </div>
         </div>
 
-    </div><script src="bootstrap/dist/js/bootstrap.min.js"></script> <script src="bootstrap/assets/js/docs.min.js"></script>
+    </div><script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap/assets/js/docs.min.js"></script>
 </body>
 </html>

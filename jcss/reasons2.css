@@ -3,9 +3,31 @@ html {
     margin:0 auto
 }
 
+.balloon {
+        position: absolute;
+	height: 100%;
+	width: 22%;
+	top: 100%;
+        margin-left: -25%;
+	animation-name: balloonAnim;
+	animation-duration: 14s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-direction: normal;
+	animation-delay: 0.5s;
+}
+
+
+
 article figure {
     display:none
 }
+
+.logic{
+    width: 25%;
+}
+
+
 
 .active {
     background-color:#CFF0FF;
@@ -42,6 +64,10 @@ body::-webkit-scrollbar-thumb {
 
 iframe {
     background-color:#CFF0FF
+}
+
+.iframers{
+    background-color: transparent;
 }
 
 .line_drive {
@@ -233,7 +259,7 @@ iframe {
 }
 
 .layer_1,.layer_2 {
-    margin:0 auto
+    margin: 0 auto;
 }
 
 .plus {
@@ -363,7 +389,7 @@ iframe {
     width:100%;
     color:#405159;
     font-weight:700;
-    font-size:150%;
+    font-size:115%;
     text-align:center
 }
 
@@ -418,1135 +444,6 @@ iframe {
 }
 
 
-
-
-
-
-/*********************************************************************/
-/*********************************************************************/
-@media only screen and (max-width: 409px) {/**************************/
-
-    /******************************************/
-    /*************Parallax Section*************/
-    /******************************************/
-    
-    article figure {
-        display:block;
-        margin:0 auto;
-            background-color: #8ce7ef;
-            width: 100%;
-            float: left;
-            height: 768px;
-            padding-top:160px;
-    }
-    
-    article figcaption {
-        font-size:50%;
-        font-weight:700;
-        color:#405159;
-        text-align:center
-    }
-    
-    article iframe {
-        display:none
-    }
-    
-    article img {
-        width:80%
-        
-    }
-
-    article iframe {
-        width: 400px!important;
-        height: 289px!important;
-        margin-top: 223px;
-    }
-
-    .bridge,.bridge img {
-        display: none;
-    }
-    
-    .gif_1,.gif_2 {
-        float:left
-    }
-    
-    .gif_1 img,.gif_2 img {
-        display: none;
-    }
-
-    .iframers{
-        width: 0px;
-    }
-
-    #home {
-        min-height:768px;
-        height:768px;
-        margin:0 auto;
-        background-size:100% 100%;
-        width:100%;
-        max-width:1920px;
-        position:relative
-    }
-    
-    #home article {
-        position:absolute;
-        text-align:center;
-        color:#fff;
-        font-weight:700;
-        font-size:50px;
-        width:100%;
-        margin-top:0px
-    }
-
-    /******************************************/
-    /*****************My Team******************/
-    /******************************************/
- 
-    .person {
-        width:44%;
-        margin-left:3%;
-        margin-right:2%
-    }
-  
-    .school {
-        margin:0 auto;
-        width:90%
-    }
-
-    /******************************************/
-    /****************What We Do****************/
-    /******************************************/
-   
-    .corps_1, .corps_2{
-        width:100%;
-    }
-
-    .corps_1{
-        padding-bottom: 100px;
-    }
-    
-    .grouping5 h1 {
-        font-size:300%;
-    }
-
-    /******************************************/
-    /******************Process*****************/
-    /******************************************/
- 
-    .grouping2 h1 {
-        font-size:400%;
-    }
-    
-    .layer1, .layer2{
-        width:auto;
-    }
-    
-    .plus {
-        width:100%;
-    }
-    
-    .plus2 {
-        display:block;
-        color:#fffd88;
-        font-size:340%;
-        font-weight:700;
-        float:left;
-        width:100%;
-        text-align:center;
-        margin-top:5%
-    }
-    
-    .plusle {
-        width:100%!important;
-        margin-top:5%!important
-    }
-    
-    .stepper {
-        width:100%!important
-    }
-    
-    .steps_3 {
-        margin-left:10%;
-        width:100%;
-    }
-    
-    .steps_3 figure {
-        width:50%;
-        margin-left:25%;
-        margin-right:25%;
-        float:left
-    }
-    
-    /******************************************/
-    /****************Contact Us****************/
-    /******************************************/
-    .categories {
-        width:100%;
-        font-size:100%!important;
-    }
-
-    .form_sub {
-        width:40%;
-        height:130px;
-        color:#405159;
-        margin:10%;
-        margin-left:30%;
-        margin-right:30%;
-        font-size:170%;
-    }
-
-    .info_split {
-        width:100%;
-        float:left
-    }
-    
-    .info_splitters_c {
-        padding:0!important;
-        float:right!important
-    }
-    
-    .real {
-        height:55px;
-    }
-    
-    .real li {
-        font-size:100%;
-        width:100%;
-    }
-    
-    .real2 {
-        width:100%;
-    }
-    
-    .real2 li {
-        padding:2%;
-        padding-left:5%;
-        padding-right:5%;
-        font-size:120%
-    }
-     
-    .li_textarea{
-        width: 96%
-    }
-    
-    /******************************************/
-    /***************Email Monkey***************/
-    /******************************************/
-    .emails {
-        width:100%;
-        float:left
-    }
-    
-    .emails input {
-        background-color:#fffd88;
-        padding:5px;
-        padding-left:10px;
-        border: solid 5px #fffd88;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .emails_button {
-        width:100%;
-        float:left
-    }
-    
-    .email_sub {
-        width:100%;
-        border:solid 5px #CFF0FF;
-        background-color: #CFF0FF;
-        color:#405159;
-        padding:6px;
-        font-weight:700
-    }
-    
-    .emails_space {
-        width:10%;
-        float:left;
-        color:#405159
-    }
-    
-    .news {
-        width:70%;
-        margin:0 auto
-    }
-    
-    .mail_monkey {
-        margin:0 auto;
-        width:100%;
-        background-color:#405159
-    }
-    
-    .mail_monkey h1 {
-        text-align:center;
-        font-weight:700;
-        font-size:200%;
-        color:#CFF0FF;
-        margin:0
-    }
-    
-    /******************************************/
-    /****************The Footer****************/
-    /******************************************/
-    
-    .social_space {
-        width:100%;
-        margin:0 auto
-    }
-}
-
-
-/********************************************************************/
-/********************************************************************/
-@media only screen and (min-width: 410px) and (max-width: 533px){/****/
-
-    /******************************************/
-    /*************Parallax Section*************/
-    /******************************************/
-    
-    article figure {
-        display:block;
-        margin:0 auto;
-            background-color: #8ce7ef;
-            width: 100%;
-            float: left;
-            height: 768px;
-            padding-top:160px;
-    }
-    
-    article figcaption {
-        font-size:50%;
-        font-weight:700;
-        color:#405159;
-        text-align:center
-    }
-    
-    article iframe {
-        display:none
-    }
-    
-    article img {
-        width:80%
-        
-    }
-
-    article iframe {
-        width: 400px!important;
-        height: 289px!important;
-        margin-top: 223px;
-    }
-
-    .bridge,.bridge img {
-        display: none;
-    }
-    
-    .gif_1,.gif_2 {
-        float:left
-    }
-    
-    .gif_1 img,.gif_2 img {
-        display: none;
-    }
-
-    .iframers{
-        width: 0px;
-    }
-    
-    #home {
-        min-height:768px;
-        height:768px;
-        margin:0 auto;
-        background-size:100% 100%;
-        width:100%;
-        max-width:1920px;
-        position:relative
-    }
-    
-    #home article {
-        position:absolute;
-        text-align:center;
-        color:#fff;
-        font-weight:700;
-        font-size:50px;
-        width:100%;
-        margin-top:0px
-    }
-    
-    /******************************************/
-    /******************My Team*****************/
-    /******************************************/
-
-    .person {
-        width:44%;
-        margin-left:3%;
-        margin-right:2%
-    }
-    
-    .school {
-        margin:0 auto;
-        width:90%
-    }
-
-    /******************************************/
-    /****************What We Do****************/
-    /******************************************/
-   
-    .corps_1, .corps_2{
-        width:100%;
-    }
-
-    .corps_1{
-        padding-bottom: 50px;
-    }
-
-    .grouping5 h1 {
-        font-size:300%;
-    }
-    
-    .dressup {
-        width:60%;
-        margin:0 auto
-    }
-
-    /******************************************/
-    /*****************Process******************/
-    /******************************************/
-
-    .grouping2 h1 {
-        font-size:400%;
-    }
-    
-    .layer1, .layer2 {
-        width:auto;
-    }
-    
-    .plus {
-        width:100%;
-    }
-    
-    .plus2 {
-        display:block;
-        color:#fffd88;
-        font-size:340%;
-        font-weight:700;
-        float:left;
-        width:100%;
-        text-align:center;
-        margin-top:5%
-    }
-    
-    .plusle {
-        width:100%!important;
-        margin-top:5%!important
-    }
-    
-    .stepper {
-        width:100%!important
-    }
-    
-    .steps_3 {
-        margin-left:10%;
-        width:100%;
-    }
-    
-    .steps_3 figure {
-        width:50%;
-        margin-left:25%;
-        margin-right:25%;
-        float:left
-    }
-    
-    /******************************************/
-    /****************Contact Us****************/
-    /******************************************/
-    
-    .categories {
-        width:100%;
-        font-size:100%!important;
-    }
-
-    .form_sub {
-        width: 80%;
-        height: 100px;
-        color:#405159;
-        margin:10%;
-        margin-left: 10%;
-        margin-right: 10%;
-        font-size:170%;
-        margin-top: 80%;
-    }
-    
-    .info_split {
-        width: 65%;
-        float:left;
-        padding-top: 3%;
-        padding-bottom: 6%;
-    }
-    
-    .info_splitters_c {
-        padding:0!important;
-        float:right!important
-    }
-    
-    .real {
-        height:55px;
-    }
-    
-    .real li {
-        padding:1%;
-        width:100%;
-    }
-    
-    .real2 {
-        width:100%;
-    }
-    
-    .real2 li {
-        padding:2%;
-        padding-left:5%;
-        padding-right:5%;
-        font-size:120%
-    }
-
-    .li_textarea{
-        width: 96%
-    }
-
-    /******************************************/
-    /***************Email Monkey***************/
-    /******************************************/
-    
-    .emails {
-        width:100%;
-        float:left
-    }
-    
-    .emails input {
-        background-color:#fffd88;
-        padding:5px;
-        padding-left:10px;
-        border: solid 5px #fffd88;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .emails_button {
-        width:100%;
-        float:left
-    }
-    
-    .email_sub {
-        width:100%;
-        border:solid 5px #CFF0FF;
-        background-color: #CFF0FF;
-        color:#405159;
-        padding:6px;
-        font-weight:700
-    }
-    
-    .emails_space {
-        width:10%;
-        float:left;
-        color:#405159
-    }
-    
-    .news {
-        width:70%;
-        margin:0 auto
-    }
-    
-    .mail_monkey {
-        margin:0 auto;
-        width:100%;
-        background-color:#405159
-    }
-    
-    .mail_monkey h1 {
-        text-align:center;
-        font-weight:700;
-        font-size:200%;
-        color:#CFF0FF;
-        margin:0
-    }
-    
-    /******************************************/
-    /***************The Footer*****************/
-    /******************************************/
-
-    .social_space {
-        width:100%;
-        margin:0 auto
-    }
-}
-
-/**********************************************************************/
-/**********************************************************************/
-@media only screen and (min-width: 534px) and (max-width: 799px){/*****/
-   
-    /******************************************/
-    /*************Parallax Section*************/
-    /******************************************/
-    
-    article figure {
-        display:block;
-        margin:0 auto;
-            background-color: #8ce7ef;
-            width: 100%;
-            float: left;
-            height: 768px;
-            padding-top:160px;
-    }
-    
-    article figcaption {
-        font-size:50%;
-        font-weight:700;
-        color:#405159;
-        text-align:center
-    }
-    
-    article iframe {
-        display:none
-    }
-    
-    article img {
-        width:80%
-        
-    }
-
-    article iframe {
-        width: 400px!important;
-        height: 289px!important;
-        margin-top: 223px;
-    }
-
-    .bridge,.bridge img {
-        display: none;
-    }
-    
-    .gif_1,.gif_2 {
-        float:left
-    }
-    
-    .gif_1 img,.gif_2 img {
-        display: none;
-    }
-
-    .iframers{
-        width: 0px;
-    }
-
-    #home {
-        min-height:768px;
-        height:768px;
-        margin:0 auto;
-        background-size:100% 100%;
-        width:100%;
-        max-width:1920px;
-        position:relative
-    }
-    
-    #home article {
-        position:absolute;
-        text-align:center;
-        color:#fff;
-        font-weight:700;
-        font-size:50px;
-        width:100%;
-        margin-top:0px
-    }
-
-    /******************************************/
-    /******************My Team*****************/
-    /******************************************/
-    
-    .person {
-        width:34%;
-        margin-left:10%;
-        margin-right:2%
-    }
-    
-    .school {
-        margin:0 auto;
-        width:90%
-    }
-
-    /******************************************/
-    /****************What We Do****************/
-    /******************************************/
-    .corps_1, .corps_2{
-        width:100%;
-    }
-
-    .corps_1{
-        padding-bottom: 100px;
-    }
-
-    .grouping5 h1 {
-        font-size:300%;
-    }
-
-    /******************************************/
-    /*****************Process******************/
-    /******************************************/
-
-    .grouping2 h1 {
-        font-size:400%;
-    }
-    
-    .layer1, .layer2 {
-        width:auto;
-    }
-    
-    .plus {
-        width:100%;
-    }
-    
-    .plus2 {
-        display:block;
-        color:#fffd88;
-        font-size:340%;
-        font-weight:700;
-        float:left;
-        width:100%;
-        text-align:center;
-        margin-top:5%
-    }
-    
-    .plusle {
-        width:100%!important;
-        margin-top:5%!important
-    }
-    
-    .stepper {
-        width:100%!important
-    }
-    
-    .steps_3 {
-        margin-left:10%;
-        width:100%;
-    }
-    
-    .steps_3 figure {
-        width:34%;
-        margin-left:33%;
-        margin-right:33%;
-        float:left
-    }
-    
-    /******************************************/
-    /****************Contact Us****************/
-    /******************************************/
-    .categories {
-        width:100%;
-        font-size:100%!important;
-    }
-    
-    .form_submitter {
-        width: 50%;
-        float:left;
-        margin:0 auto;
-        padding-top: 16%;
-    }
-    
-    .form_sub {
-        width: 50%;
-        height:110px;
-        color:#405159;
-        margin:10%;
-        margin-left: 25%;
-        margin-right: 25%;
-        font-size:170%;
-    }
-    
-    .info_split {
-        width: 50%;
-        float:left;
-        padding-top: 3%;
-        padding-bottom: 5%;
-    }
-    
-    .info_splitters_c {
-        padding:0!important;
-        float:right!important
-    }
-    
-    .real {
-        height:55px;
-    }
-    
-    .real li {
-        font-size:100%;
-        width:100%;
-        text-align:center
-    }
-    
-    .real2 {
-        width:100%;
-    }
-    
-    .real2 li {
-        padding:2%;
-        padding-left:5%;
-        padding-right:5%;
-        font-size:120%
-    }
-
-    .li_textarea{
-        width: 96%
-    }
-
-    /******************************************/
-    /***************Email Monkey***************/
-    /******************************************/
-    .emails {
-        width:100%;
-        float:left
-    }
-    
-    .emails input {
-        background-color:#fffd88;
-        padding:5px;
-        padding-left:10px;
-        border: solid 5px #fffd88;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .emails_button {
-        width:100%;
-        float:left
-    }
-    
-    .email_sub {
-        width:100%;
-        border:solid 5px #CFF0FF;
-        background-color: #CFF0FF;
-        color:#405159;
-        padding:6px;
-        font-weight:700
-    }
-    
-    .emails_space {
-        width:10%;
-        float:left;
-        color:#405159
-    }
-    
-    .news {
-        width:55%;
-        margin:0 auto
-    }
-    
-    .mail_monkey {
-        margin:0 auto;
-        width:100%;
-        background-color:#405159
-    }
-    
-    .mail_monkey h1 {
-        text-align:center;
-        font-weight:700;
-        font-size:200%;
-        color:#CFF0FF;
-        margin:0
-    }
-
-    /******************************************/
-    /****************The Footer****************/
-    /******************************************/
-
-    .social_space {
-        width:100%;
-        margin:0 auto
-    }
-}
-
-/********************************************************************/
-/********************************************************************/
-@media only screen and (min-width: 800px) and (max-width: 1023px){/**/
-    
-    html{
-        min-width: 800px;
-        max-width: 800px;
-    }
-
-    /******************************************/
-    /*************Parallax Section*************/
-    /******************************************/
-    
-    article figure {
-        display:block;
-        margin:0 auto;
-        background-color: #8ce7ef;
-        width: 400px;
-        float: left;
-        height: 512px;
-        padding-top:160px;
-    }
-    
-    article figcaption {
-        font-size:50%;
-        font-weight:700;
-        color:#405159;
-        text-align:center
-    }
-    
-    article iframe {
-        display:none
-    }
-    
-    article img {
-        width:80%
-    }
-
-    article iframe {
-        width: 400px!important;
-        height: 289px!important;
-        margin-top: 223px;
-    }
-
-    .bridge,.bridge img {
-        width:100%;
-        height:256px;
-    }
-    
-    .gif_1,.gif_2 {
-        float:left
-    }
-    
-    .gif_1 img,.gif_2 img {
-        width:200px;
-        height:512px
-    }
-
-    .iframers{
-        width: 0px;
-    }
-
-    #home {
-        min-height:768px;
-        height:768px;
-        margin:0 auto;
-        background-size:100% 100%;
-        width:100%;
-        max-width:1920px;
-        position:relative
-    }
-    
-    #home article {
-        position:absolute;
-        text-align:center;
-        color:#fff;
-        font-weight:700;
-        font-size:50px;
-        width:100%;
-        margin-top:0px
-    }
-    
-    /******************************************/
-    /******************My Team*****************/
-    /******************************************/
-    
-    .person {
-        width:23%;
-        margin-left:7%;
-        margin-right:2%
-    }
-
-    .school {
-        margin:0 auto;
-        width:90%
-    }
-
-    /******************************************/
-    /****************What We Do****************/
-    /******************************************/
-    .corps_1, .corps_2{
-        width:100%;
-    }
-
-    .corps_1{
-        padding-bottom: 100px;
-    }
-    
-    .grouping5 h1 {
-        font-size:400%;
-    }
-   
-    /******************************************/
-    /******************Process*****************/
-    /******************************************/
-    
-    .grouping2 h1 {
-        font-size:400%;
-    }
-    
-    .layer1, .layer2 {
-        margin:0 auto
-    }
-    
-    .plus {
-        margin-top:5%
-    }
-    
-    .plus2 {
-        display:block;
-        color:#fffd88;
-        font-size:340%;
-        font-weight:700;
-        float:left;
-        width:100%;
-        text-align:center;
-        margin-top:5%
-    }
-    
-    .plusle {
-        width:100%!important;
-        margin-top:5%!important
-    }
-    
-    .stepper {
-        width:100%!important
-    }
-    
-    .steps_3 {
-        margin-left:10%;
-        width:100%;
-    }
-    
-    .steps_3 figure {
-        width:24%;
-        margin-left:38%;
-        margin-right:38%;
-        float:left
-    }
-
-    /******************************************/
-    /***************Contact Us*****************/
-    /******************************************/
-    .categories {
-        width:100%;
-        font-size:100%!important;
-    }
-
-    .form_submitter {
-        width:20%;
-        float:left;
-        margin:0 auto
-    }
-    
-    .form_sub {
-        width:100%;
-        height: 110px; 
-        color:#405159;
-        margin-top:26%;
-        margin-left:auto;
-        margin-right:auto;
-        font-size:170%;
-    }
-    
-    .info_split {
-        width:75%;
-        float:left
-    }
-    
-    .info_splitters_c {
-        padding:0!important;
-        float:right!important
-    }
-    
-    .real {
-        height:55px;
-    }
-    
-    .real li {
-        font-size:100%;
-        width:100%;
-        text-align:center
-    }
-    
-    .real2 {
-        width:100%;
-    }
-    
-    .real2 li {
-        padding:2%;
-        padding-left:5%;
-        padding-right:5%;
-        font-size:120%
-    }
-
-    .li_textarea{
-        width: 96%
-    }
-    
-    /******************************************/
-    /***************Email Monkey***************/
-    /******************************************/
-    .emails {
-        width:100%;
-        float:left
-    }
-    
-    .emails input {
-        background-color:#fffd88;
-        padding:5px;
-        padding-left:10px;
-        border:solid 5px #fffd88;
-        color:#405159;
-        font-weight:700
-    }
-    
-    .emails_button {
-        width:100%;
-        float:left
-    }
-    
-    .email_sub {
-        width:100%;
-        border:solid 5px #CFF0FF;
-        background-color:#CFF0FF;
-        color:#405159;
-        padding:6px;
-        font-weight:700
-    }
-    
-    .emails_space {
-        width:10%;
-        float:left;
-        color:#405159
-    }
-    
-    .news {
-        width:40%;
-        margin:0 auto
-    }
-    
-    .mail_monkey {
-        margin:0 auto;
-        width:100%;
-        background-color:#405159
-    }
-    
-    .mail_monkey h1 {
-        text-align:center;
-        font-weight:700;
-        font-size:200%;
-        color:#CFF0FF;
-        margin:0
-    }
-
-    /******************************************/
-    /****************The Footer****************/
-    /******************************************/
-
-    .social_space {
-        width:100%;
-        margin:0 auto
-    }
-}
-
-
 /****************************************************************************/
 /****************************************************************************/
 @media only screen and (min-device-width: 1024px) {/**************************/
@@ -1587,7 +484,6 @@ iframe {
     }
 
     .iframers{
-        background-color: #8ce7ef;
         width: 512px;
         float: left;
         height: 512px;
@@ -1612,7 +508,25 @@ iframe {
         width:100%;
         margin-top:0px
     }
+   
+    .backgrounded{
+        width:1024px;
+        height:512px
+    }
     
+    @keyframes balloonAnim {
+            0% {
+                    transform: translateY(0);
+            }
+    
+            50% {
+                    transform: translateY(-750px);
+            }
+    
+            100% {
+                    transform: translateY(-1500px);
+            }
+    }
     /******************************************/
     /******************My Team*****************/
     /******************************************/
@@ -1636,7 +550,14 @@ iframe {
         width:50%;
         float:left
     }
-    
+
+    .corps_1 img, .corps_2 img {
+      width: 100%;
+      margin-left: auto; 
+      margin-right: auto;
+      float: left;
+    }
+
     .grouping5 h1 {
         font-size:400%;
     }
@@ -1651,6 +572,7 @@ iframe {
     
     .layer1 {
         width: 75%;
+        margin: 0 auto;
     }
     
     .layer2 {
@@ -1680,6 +602,10 @@ iframe {
         margin-left:2%;
         margin-right:2%;
         float:left
+    }
+    
+    .steps_3 figcaption{
+        font-size: 120%;
     }
         
     /******************************************/
@@ -1803,6 +729,10 @@ iframe {
     /***************The Footer*****************/
     /******************************************/
     
+    .contact_info_mini{
+        font-size:100%;
+    }
+    
     .social_space {
         width:50%;
         margin:0 auto
@@ -1823,7 +753,7 @@ iframe {
     /******************************************/
 
     article iframe {
-        width: 576px!important;
+        width: 577px!important;
         height: 324px!important;
         margin-top: 252px;
         display:block;
@@ -1851,7 +781,6 @@ iframe {
     }
 
     .iframers{
-        background-color: #8ce7ef;
         width: 576px;
         float: left;
         height: 576px;
@@ -1877,6 +806,26 @@ iframe {
         margin-top:0px
     }
     
+    
+    .backgrounded{
+        width:1152px;
+        height:576px
+    }
+    
+    @keyframes balloonAnim {
+            0% {
+                    transform: translateY(0);
+            }
+    
+            50% {
+                    transform: translateY(-850px);
+            }
+    
+            100% {
+                    transform: translateY(-1700px);
+            }
+    }
+    
     /******************************************/
     /******************My Team*****************/
     /******************************************/
@@ -1899,6 +848,13 @@ iframe {
         width:50%;
         float:left
     }
+        
+    .corps_1 img, .corps_2 img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      float: left;
+    }
     
     .grouping5 h1 {
         font-size:400%;
@@ -1914,6 +870,7 @@ iframe {
     
     .layer1 {
         width: 75%;
+        margin: 0 auto;
     }
     
     .layer2 {
@@ -1945,6 +902,11 @@ iframe {
         margin-right:2%;
         float:left
     }
+    
+    .steps_3 figcaption{
+        font-size: 130%;
+    }
+    
     
     /******************************************/
     /***************Contact us*****************/
@@ -2108,7 +1070,6 @@ iframe {
     }
 
     .iframers{
-        background-color: #8ce7ef;
         width: 640px;
         float: left;
         height: 480px;
@@ -2134,6 +1095,26 @@ iframe {
         margin-top:0px
     }
     
+    
+    .backgrounded{
+        width:1280px;
+        height:480px
+    }
+    
+    @keyframes balloonAnim {
+            0% {
+                    transform: translateY(0);
+            }
+    
+            50% {
+                    transform: translateY(-750px);
+            }
+    
+            100% {
+                    transform: translateY(-1500px);
+            }
+    }
+    
     /******************************************/
     /******************My Team*****************/
     /******************************************/
@@ -2142,6 +1123,10 @@ iframe {
         width:15%;
         margin-left:2.89%;
         margin-right:2%
+    }
+
+    .grouping h1, .grouping3 h1{
+        font-size: 500%;
     }
 
     .school {
@@ -2156,7 +1141,14 @@ iframe {
         width:50%;
         float:left
     }
-
+        
+    .corps_1 img, .corps_2 img {
+      width: 86%;
+      margin-left: 7%;
+      margin-right: 7%;
+      float: left;
+    }
+    
     .grouping5 h1 {
         font-size:400%;
     }
@@ -2171,6 +1163,7 @@ iframe {
     
     .layer1 {
         width: 75%;
+        margin: 0 auto;
     }
     
     .layer2 {
@@ -2203,6 +1196,10 @@ iframe {
         margin-left:2%;
         margin-right:2%;
         float:left
+    }
+    
+    .steps_3 figcaption{
+        font-size: 140%;
     }
     
     /******************************************/
@@ -2372,7 +1369,6 @@ iframe {
     }
 
     .iframers{
-        background-color: #8ce7ef;
         width: 680px;
         float: left;
     }
@@ -2395,6 +1391,26 @@ iframe {
         font-size:50px;
         width:100%;
         margin-top:0px
+    }
+    
+    
+    .backgrounded{
+        width:1360px;
+        height:512px
+    }
+    
+    @keyframes balloonAnim {
+            0% {
+                    transform: translateY(0);
+            }
+    
+            50% {
+                    transform: translateY(-750px);
+            }
+    
+            100% {
+                    transform: translateY(-1500px);
+            }
     }
     
     /******************************************/
@@ -2434,6 +1450,7 @@ iframe {
     
     .layer1 {
         width: 75%;
+        margin: 0 auto;
     }
     
     .layer2 {
@@ -2634,7 +1651,6 @@ iframe {
     }
     
     .iframers{
-        background-color: #8ce7ef;
         width: 683px;
         float: left;
     }
@@ -2659,6 +1675,26 @@ iframe {
         margin-top:0
     }
     
+    
+    .backgrounded{
+        width:1366px;
+        height:512px
+    }
+    
+    @keyframes balloonAnim {
+            0% {
+                    transform: translateY(0);
+            }
+    
+            50% {
+                    transform: translateY(-750px);
+            }
+    
+            100% {
+                    transform: translateY(-1500px);
+            }
+    }
+    
     /******************************************/
     /*****************My Team******************/
     /******************************************/
@@ -2667,6 +1703,10 @@ iframe {
         width:15%;
         margin-left:2.85%;
         margin-right:2%
+    }
+    
+    .grouping h1, .grouping3 h1{
+        font-size: 500%;
     }
     
     .school {
@@ -2696,6 +1736,7 @@ iframe {
     
     .layer1 {
         width: 75%;
+        margin: 0 auto;
     }
     
     .layer2 {
@@ -2728,6 +1769,10 @@ iframe {
         margin-left:2%;
         margin-right:2%;
         float:left
+    }
+    
+    .steps_3 figcaption{
+        font-size: 140%;
     }
     
     /******************************************/
@@ -2779,7 +1824,7 @@ iframe {
     }
     
     .li_textarea{
-        width: 99%;
+        width: 94%;
     }
     
     /******************************************/
@@ -2900,7 +1945,6 @@ iframe {
     }
     
     .iframers{
-        background-color: #8ce7ef;
         width: 700px;
         float: left;
     }
@@ -2925,6 +1969,26 @@ iframe {
         margin-top:0px
     }
     
+    
+    .backgrounded{
+        width:1400px;
+        height:600px
+    }
+    
+    @keyframes balloonAnim {
+            0% {
+                    transform: translateY(0);
+            }
+    
+            50% {
+                    transform: translateY(-900px);
+            }
+    
+            100% {
+                    transform: translateY(-1800px);
+            }
+    }
+    
     /******************************************/
     /*****************My Team******************/
     /******************************************/
@@ -2933,6 +1997,10 @@ iframe {
         width:15%;
         margin-left:2.85%;
         margin-right:2%
+    }
+    
+    .grouping h1, .grouping3 h1{
+        font-size: 500%;
     }
     
     .school {
@@ -2947,6 +2015,13 @@ iframe {
     .corps_1, .corps_2{
         width:50%;
         float:left
+    }
+        
+    .corps_1 img, .corps_2 img {
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+      float: left;
     }
     
     .grouping5 h1 {
@@ -2997,6 +2072,10 @@ iframe {
         margin-left:2%;
         margin-right:2%;
         float:left
+    }
+    
+    .steps_3 figcaption{
+        font-size: 150%;
     }
     
     /******************************************/
@@ -3161,7 +2240,6 @@ iframe {
     }
     
     .iframers{
-        background-color: #8ce7ef;
         width: 720px;
         float: left;
     }
@@ -3186,6 +2264,25 @@ iframe {
         margin-top:0px
     }
     
+    .backgrounded{
+        width:1440px;
+        height:600px
+    }
+    
+    @keyframes balloonAnim {
+            0% {
+                    transform: translateY(0);
+            }
+    
+            50% {
+                    transform: translateY(-900px);
+            }
+    
+            100% {
+                    transform: translateY(-1800px);
+            }
+    }
+    
     /******************************************/
     /*****************My Team******************/
     /******************************************/
@@ -3194,6 +2291,10 @@ iframe {
         width:15%;
         margin-left:2.85%;
         margin-right:2%
+    }
+    
+    .grouping h1, .grouping3 h1{
+        font-size: 500%;
     }
     
     .school {
@@ -3208,6 +2309,13 @@ iframe {
     .corps_1, .corps_2{
         width:50%;
         float:left
+    }
+
+    .corps_1 img, .corps_2 img {
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+      float: left;
     }
     
     .grouping5 h1 {
@@ -3224,6 +2332,7 @@ iframe {
     
     .layer1 {
         width: 75%;
+        margin: 0 auto;
     }
     
     .layer2 {
@@ -3256,6 +2365,10 @@ iframe {
         margin-left:2%;
         margin-right:2%;
         float:left
+    }
+    
+    .steps_3 figcaption{
+        font-size: 150%;
     }
 
     /******************************************/
@@ -3396,7 +2509,7 @@ iframe {
         width:800px!important;
         height:448px!important;
         float:left;
-        margin-top:150px;
+        margin-top:152px;
         display: block;
     }
     
@@ -3422,7 +2535,6 @@ iframe {
     }
     
     .iframers{
-        background-color: #8ce7ef;
         width: 800px;
         float: left;
     }
@@ -3447,6 +2559,25 @@ iframe {
         margin-top:0px
     }
     
+    .backgrounded{
+        width:1600px;
+        height:600px
+    }
+    
+    @keyframes balloonAnim {
+            0% {
+                    transform: translateY(0);
+            }
+    
+            50% {
+                    transform: translateY(-900px);
+            }
+    
+            100% {
+                    transform: translateY(-1800px);
+            }
+    }
+    
     /******************************************/
     /*****************My Team******************/
     /******************************************/
@@ -3455,6 +2586,10 @@ iframe {
         width:15%;
         margin-left:2.87%;
         margin-right:2%
+    }
+    
+    .grouping h1, .grouping3 h1{
+        font-size: 500%;
     }
     
     .school {
@@ -3470,7 +2605,14 @@ iframe {
         width:50%;
         float:left
     }
-
+    
+    .corps_1 img, .corps_2 img {
+        width: 84%;
+        margin-left: 8%;
+        margin-right: 8%;
+        float: left;
+    }
+    
     .grouping5 h1 {
         font-size:400%;
     }
@@ -3485,6 +2627,7 @@ iframe {
     
     .layer1 {
         width: 75%;
+        margin: 0 auto;    
     }
     
     .layer2 {
@@ -3517,6 +2660,10 @@ iframe {
         margin-left:2%;
         margin-right:2%;
         float:left
+    }
+    
+    .steps_3 figcaption{
+        font-size: 160%;
     }
 
     /******************************************/
@@ -3682,7 +2829,6 @@ iframe {
     }
     
     .iframers{
-        background-color: #8ce7ef;
         width: 840px;
         float: left;
     }
@@ -3707,6 +2853,26 @@ iframe {
         margin-top:0px
     }
     
+    .backgrounded{
+        width:1680px;
+        height:600px
+    }
+
+    @keyframes balloonAnim {
+            0% {
+                    transform: translateY(0);
+            }
+    
+            50% {
+                    transform: translateY(-1100px);
+            }
+    
+            100% {
+                    transform: translateY(-2200px);
+            }
+    }
+
+    
     /******************************************/
     /*****************My Team******************/
     /******************************************/
@@ -3717,6 +2883,10 @@ iframe {
         margin-right:2%
     }
 
+    .grouping h1, .grouping3 h1{
+        font-size: 500%;
+    }
+    
     .school {
         margin:0 auto;
         width:80%
@@ -3728,6 +2898,13 @@ iframe {
     .corps_1, .corps_2{
         width:50%;
         float:left
+    }
+    
+    .corps_1 img, .corps_2 img {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        float: left;
     }
     
     .grouping5 h1 {
@@ -3744,6 +2921,7 @@ iframe {
     
     .layer1 {
         width: 75%;
+        margin: 0 auto;
     }
     
     .layer2 {
@@ -3793,7 +2971,7 @@ iframe {
         color:#405159;
         margin:0;
         font-size:150%;
-        margin-left:85%
+        margin-left:85%;
     }
     
     .info_split {
@@ -3914,10 +3092,10 @@ iframe {
     /******************************************/
 
     article iframe {
-        width:958px!important;
-        height:540px!important;
+        width:960px!important;
+        height:539px!important;
         float:left;
-        margin-top:180px;
+        margin-top:181px;
         display: block;
     }
     
@@ -3943,7 +3121,6 @@ iframe {
     }
     
     .iframers{
-        background-color: #8ce7ef;
         width: 960px;
         float: left;
     }   
@@ -3967,6 +3144,25 @@ iframe {
         width:100%;
         margin-top:0px
     }
+    
+    .backgrounded{
+        width:1920px;
+        height:720px
+    }
+
+    @keyframes balloonAnim {
+            0% {
+                    transform: translateY(0);
+            }
+    
+            50% {
+                    transform: translateY(-1100px);
+            }
+    
+            100% {
+                    transform: translateY(-2200px);
+            }
+    }
 
     /******************************************/
     /*****************My Team******************/
@@ -3976,6 +3172,10 @@ iframe {
         width:14%;
         margin-left:3.7%;
         margin-right:2%
+    }
+    
+    .grouping h1, .grouping3 h1{
+        font-size: 600%;
     }
   
     .school {
@@ -3990,6 +3190,13 @@ iframe {
     .corps_1, .corps_2{
         width:50%;
         float:left
+    }
+    
+    .corps_1 img, .corps_2 img {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        float: left;
     }
 
     .grouping5 h1 {
@@ -4006,6 +3213,7 @@ iframe {
     
     .layer1 {
         width: 75%;
+        margin: 0 auto;
     }
     
     .layer2 {
@@ -4055,7 +3263,8 @@ iframe {
         border-radius:0;
         color:#405159;
         margin:0;
-        font-size:180%
+        font-size:180%;
+        margin-left: 80%;
     }
     
     .info_split {

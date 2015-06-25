@@ -1,4 +1,9 @@
 $(document).ready(function() {
+	var complete = screen.width;
+	
+	if (complete < 1024) {
+		window.location.href="http://m.standbrightstudios.com";
+	}
 	
 	$.validator.addMethod("phones", function(phone_number, element) {
 	phone_number = phone_number.replace(/\(|\)|\s+|-/g, "");
@@ -63,6 +68,9 @@ $(document).ready(function() {
 				},
 				company_details:{
 					required: true
+				},
+				company_know:{
+					required: true
 				}
 			},
 			messages:{
@@ -72,7 +80,8 @@ $(document).ready(function() {
 				company_number: "Valid # Required",
 				company_email: "Valid Email Required",
 				company_budget: "Valid Budget Required",
-				company_details: "Some details required. Please fill this out as much as possible."
+				company_details: "Some details required. Please fill this out as much as possible.",
+				company_know: "Please tell us how you know about us."
 			},	
 			errorPlacement: function(error, element) {
 			    if ((element.attr("type") == "radio")&&(element.attr("name") == "animation_style")) {
@@ -141,5 +150,4 @@ setInterval(function () {
 	if (m_width == c_width) {
 		$("html").css("overflow-x", "hidden");
 	}
-	
 }, 1);
