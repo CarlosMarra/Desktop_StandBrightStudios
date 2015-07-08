@@ -318,6 +318,8 @@ iframe {
     width:100%;
     float:left;
     margin:0 auto
+;
+    margin-top: 3%;
 }
 
 .form_sub {
@@ -2688,7 +2690,9 @@ iframe {
         width:70%;
         margin-left:15%;
         margin-right:15%
-    }
+    ;
+        margin-top: 1%;
+}
     
     .info_splitters_c {
         padding:0!important;
@@ -2975,9 +2979,9 @@ iframe {
     }
     
     .info_split {
-        width: 60%;
-        margin-left: 20%;
-        margin-right: 20%;
+        width: 95%;
+        margin-left: 3%;
+        margin-right: 3%;
     }
     
     .info_splitters_c {
@@ -2999,9 +3003,9 @@ iframe {
     }
     
     .real2 li {
-        padding:3%;
-        padding-left:5%;
-        padding-right:5%;
+        padding: 2%;
+        padding-left: 4%;
+        padding-right: 4%;
         font-size:140%
     }
 
@@ -3265,14 +3269,17 @@ iframe {
         margin:0;
         font-size:180%;
         margin-left: 80%;
-    }
+    
+        margin-top: 3%;
+}
     
     .info_split {
-        width:60%;
+        width: 100%;
         float:left;
-        margin-left:20%;
-        margin-right:20%
-    }
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 2%;
+}
     
     .info_splitters_c {
         padding:0!important;
@@ -3293,15 +3300,14 @@ iframe {
     }
     
     .real2 li {
-        padding:3%;
+        padding: 1%;
         padding-left:5%;
         padding-right:5%;
         font-size:140%
     }
     
     .li_textarea{
-        width: 96%
-    }
+        width: 99%;}
     
     /******************************************/
     /*************Email Monkey*****************/

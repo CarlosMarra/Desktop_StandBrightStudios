@@ -41,7 +41,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
     
-    <link href="jcssM/fullswing.min.css" rel="stylesheet">
+    <link href="jcss/reasons2.css" rel="stylesheet">
     <script src="jcssM/fullswing.min.js"></script>
     
     <script src="fancybox_source/jquery.fancybox.js?v=2.1.5" type="text/javascript"></script>
