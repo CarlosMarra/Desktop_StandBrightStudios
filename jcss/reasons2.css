@@ -168,7 +168,6 @@ iframe {
 
 .peeps {
     width:100%;
-    height:100%;
     background-color:#fffd88;
     border-radius:50%;
     border:solid 10px #405159
@@ -518,14 +517,17 @@ iframe {
     
     @keyframes balloonAnim {
             0% {
+                    -webkit-transform:translateY(0);
                     transform: translateY(0);
             }
     
             50% {
+                    -webkit-transform:translateY(-750px);
                     transform: translateY(-750px);
             }
     
-            100% {
+            100% {                    
+                    -webkit-transform:translateY(-1500px);
                     transform: translateY(-1500px);
             }
     }
@@ -816,14 +818,17 @@ iframe {
     
     @keyframes balloonAnim {
             0% {
+                    -webkit-transform:translateY(0);
                     transform: translateY(0);
             }
     
             50% {
+                    -webkit-transform:translateY(-850px);
                     transform: translateY(-850px);
             }
     
             100% {
+                    -webkit-transform:translateY(-1700px);
                     transform: translateY(-1700px);
             }
     }
@@ -1105,14 +1110,17 @@ iframe {
     
     @keyframes balloonAnim {
             0% {
+                    -webkit-transform:translateY(0);
                     transform: translateY(0);
             }
     
             50% {
+                    -webkit-transform:translateY(-750px);
                     transform: translateY(-750px);
             }
     
             100% {
+                    -webkit-transform:translateY(-1500px));
                     transform: translateY(-1500px);
             }
     }
@@ -1403,14 +1411,17 @@ iframe {
     
     @keyframes balloonAnim {
             0% {
+                    -webkit-transform:translateY(0);
                     transform: translateY(0);
             }
     
             50% {
+                    -webkit-transform:translateY(-750px);
                     transform: translateY(-750px);
             }
     
             100% {
+                    -webkit-transform:translateY(-1500px);
                     transform: translateY(-1500px);
             }
     }
@@ -1685,14 +1696,17 @@ iframe {
     
     @keyframes balloonAnim {
             0% {
+                    -webkit-transform:translateY(0);
                     transform: translateY(0);
             }
     
             50% {
+                    -webkit-transform:translateY(-750px);
                     transform: translateY(-750px);
             }
     
             100% {
+                    -webkit-transform:translateY(-1500px);
                     transform: translateY(-1500px);
             }
     }
@@ -1979,14 +1993,17 @@ iframe {
     
     @keyframes balloonAnim {
             0% {
+                    -webkit-transform:translateY(0);
                     transform: translateY(0);
             }
     
             50% {
+                    -webkit-transform:translateY(-900px);
                     transform: translateY(-900px);
             }
     
             100% {
+                    -webkit-transform:translateY(-1800px);
                     transform: translateY(-1800px);
             }
     }
@@ -2273,14 +2290,17 @@ iframe {
     
     @keyframes balloonAnim {
             0% {
+                    -webkit-transform:translateY(0);
                     transform: translateY(0);
             }
     
             50% {
+                    -webkit-transform:translateY(-900px);
                     transform: translateY(-900px);
             }
     
             100% {
+                    -webkit-transform:translateY(-1800px);
                     transform: translateY(-1800px);
             }
     }
@@ -2568,14 +2588,17 @@ iframe {
     
     @keyframes balloonAnim {
             0% {
+                    -webkit-transform:translateY(0);
                     transform: translateY(0);
             }
     
             50% {
+                    -webkit-transform:translateY(-900px);
                     transform: translateY(-900px);
             }
     
             100% {
+                    -webkit-transform:translateY(-1800px);
                     transform: translateY(-1800px);
             }
     }
@@ -2864,14 +2887,17 @@ iframe {
 
     @keyframes balloonAnim {
             0% {
+                    -webkit-transform:translateY(0);
                     transform: translateY(0);
             }
     
             50% {
+                    -webkit-transform:translateY(-1100px);
                     transform: translateY(-1100px);
             }
     
             100% {
+                    -webkit-transform:translateY(-2200px);
                     transform: translateY(-2200px);
             }
     }
@@ -3156,14 +3182,17 @@ iframe {
 
     @keyframes balloonAnim {
             0% {
+                    -webkit-transform:translateY(0);
                     transform: translateY(0);
             }
     
             50% {
+                    -webkit-transform:translateY(-1100px);
                     transform: translateY(-1100px);
             }
     
             100% {
+                    -webkit-transform:translateY(-2200px);
                     transform: translateY(-2200px);
             }
     }
